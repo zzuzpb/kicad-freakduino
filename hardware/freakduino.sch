@@ -36,10 +36,10 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 6
-Title "KiCAD FREAKDUINO-CHIBI 2.4GHz"
+Title "FREAKDUINO-CHIBI 2.4GHz"
 Date "15 jul 2013"
 Rev "v2.1a"
-Comp ""
+Comp "KiCAD version by Gruvin"
 Comment1 "MCU"
 Comment2 ""
 Comment3 ""
