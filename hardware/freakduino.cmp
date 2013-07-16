@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = Wed 17 Jul 2013 11:14:48 AM NZST
+Cmp-Mod V01 Created by PcbNew date = Wed 17 Jul 2013 11:34:00 AM NZST
 
 BeginCmp
 TimeStamp = /51E37E38/51E3A9AC;
@@ -529,7 +529,7 @@ BeginCmp
 TimeStamp = /51E37E38/51E39274;
 Reference = Y1;
 ValeurCmp = NX3225SA-16MHz-15ppm;
-IdModule  = crystal_FA238-TSX3225;
+IdModule  = crystal_C3E;
 EndCmp
 
 EndListe
