@@ -35,7 +35,7 @@ EELAYER 27 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 5 6
+Sheet 6 6
 Title "FREAKDUINO-CHIBI 2.4GHz"
 Date "16 jul 2013"
 Rev "v2.1a"
