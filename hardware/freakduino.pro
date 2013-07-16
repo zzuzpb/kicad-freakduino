@@ -1,4 +1,4 @@
-update=Wed 17 Jul 2013 01:58:27 AM NZST
+update=Wed 17 Jul 2013 11:17:37 AM NZST
 version=1
 last_client=kicad
 [cvpcb]
@@ -48,12 +48,12 @@ LibName30=contrib
 LibName31=valves
 [pcbnew]
 version=1
-LastNetListRead=
+LastNetListRead=freakduino.net
 UseCmpFile=1
-PadDrill=3.302000000000
-PadDrillOvalY=3.302000000000
-PadSizeH=6.350000000000
-PadSizeV=6.350000000000
+PadDrill=0.812800000000
+PadDrillOvalY=0.812800000000
+PadSizeH=1.524000000000
+PadSizeV=1.524000000000
 PcbTextSizeV=1.500000000000
 PcbTextSizeH=1.500000000000
 PcbTextThickness=0.300000000000

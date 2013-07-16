@@ -1,10 +1,10 @@
-Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = Wed 17 Jul 2013 01:34:11 AM NZST
+Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = Wed 17 Jul 2013 11:14:48 AM NZST
 
 BeginCmp
 TimeStamp = /51E37E38/51E3A9AC;
 Reference = ANT1;
 ValeurCmp = SMA;
-IdModule  = ;
+IdModule  = SMA;
 EndCmp
 
 BeginCmp
@@ -18,7 +18,7 @@ BeginCmp
 TimeStamp = /51E2B7E8/51E3B926;
 Reference = BATT2;
 ValeurCmp = BH321-1P;
-IdModule  = ;
+IdModule  = BATT_HOLDER_2AA;
 EndCmp
 
 BeginCmp
@@ -39,7 +39,7 @@ BeginCmp
 TimeStamp = /51E37E38/51E3A3F7;
 Reference = C2;
 ValeurCmp = DNI;
-IdModule  = ;
+IdModule  = SM0603_Capa;
 EndCmp
 
 BeginCmp
@@ -277,7 +277,7 @@ BeginCmp
 TimeStamp = /51E3C427/51E3C80C;
 Reference = J1;
 ValeurCmp = USB-MINI-AB;
-IdModule  = USB_MINI_B;
+IdModule  = USB-B_mini;
 EndCmp
 
 BeginCmp
@@ -466,7 +466,7 @@ BeginCmp
 TimeStamp = /51E2A061;
 Reference = S2;
 ValeurCmp = PBS_SMD;
-IdModule  = ;
+IdModule  = SWPUSH_SPST_SMD;
 EndCmp
 
 BeginCmp
