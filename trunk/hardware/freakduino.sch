@@ -46,31 +46,31 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Sheet
-S 400  -1450 2150 1400
+S 600  7150 800  500 
 U 51E3DB4C
 F0 "INTERFACE" 50
 F1 "interface.sch" 50
 $EndSheet
 $Sheet
-S 5200 -1450 2000 1400
+S 2400 7150 800  500 
 U 51E37E38
 F0 "RADIO" 50
 F1 "radio.sch" 50
 $EndSheet
 $Sheet
-S 7450 -1450 1950 1400
+S 3300 7150 800  500 
 U 51E3C427
 F0 "USB" 50
 F1 "usb.sch" 50
 $EndSheet
 $Sheet
-S 2850 -1450 2100 1400
+S 1500 7150 800  500 
 U 51E2B7E8
 F0 "POWER" 50
 F1 "power.sch" 50
 $EndSheet
 $Sheet
-S 9650 -1450 1900 1400
+S 4200 7150 800  500 
 U 51E3F016
 F0 "MISC" 50
 F1 "misc.sch" 50
