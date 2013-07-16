@@ -35,9 +35,9 @@ EELAYER 27 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 5 6
+Sheet 4 6
 Title "FREAKDUINO-CHIBI 2.4GHz"
-Date "16 jul 2013"
+Date "15 jul 2013"
 Rev "v2.1a"
 Comp "KiCAD version by Gruvin"
 Comment1 ""
@@ -237,8 +237,6 @@ F 0 "D5" H 4950 4200 40  0000 C CNN
 F 1 "DO-35" H 4950 4000 40  0000 C CNN
 F 2 "" H 4950 4100 60  0000 C CNN
 F 3 "" H 4950 4100 60  0000 C CNN
-F 4 "Vishay" H 4950 4100 60  0001 C CNN "Manufacturer"
-F 5 "BAT43" H 4950 4100 60  0001 C CNN "Part No"
 	1    4950 4100
 	1    0    0    -1  
 $EndComp
