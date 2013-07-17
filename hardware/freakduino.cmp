@@ -1,10 +1,10 @@
-Cmp-Mod V01 Created by PcbNew date = Wed 17 Jul 2013 01:31:09 PM NZST
+Cmp-Mod V01 Created by PcbNew date = Wed 17 Jul 2013 06:35:50 PM NZST
 
 BeginCmp
 TimeStamp = /51E37E38/51E3A9AC;
 Reference = ANT1;
 ValeurCmp = SMA;
-IdModule  = SMA;
+IdModule  = SMA-GRUVIN;
 EndCmp
 
 BeginCmp
