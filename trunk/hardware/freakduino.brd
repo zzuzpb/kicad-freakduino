@@ -1,4 +1,4 @@
-PCBNEW-BOARD Version 2 date Wed 17 Jul 2013 12:25:36 PM NZST
+PCBNEW-BOARD Version 2 date Wed 17 Jul 2013 12:32:22 PM NZST
 
 # Created by Pcbnew(2013-07-07 BZR 4022)-stable
 
@@ -4194,7 +4194,7 @@ Ne 68 "VCC5"
 Po -3.025 -2.93
 $EndPAD
 $SHAPE3D
-Na "smd/smd_dil/tssop-20.wrl"
+Na "packages3d/sot360-1.wrl"
 Sc 1 1 1
 Of 0 0 0
 Ro 0 0 0
