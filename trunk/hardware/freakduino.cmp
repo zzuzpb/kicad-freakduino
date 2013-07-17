@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by PcbNew date = Wed 17 Jul 2013 11:34:00 AM NZST
+Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = Wed 17 Jul 2013 12:24:46 PM NZST
 
 BeginCmp
 TimeStamp = /51E37E38/51E3A9AC;
@@ -498,10 +498,10 @@ IdModule  = QFN32;
 EndCmp
 
 BeginCmp
-TimeStamp = /51E3DB4C/51E3DBCA;
+TimeStamp = /51E3DB4C/51E5E9C5;
 Reference = U4;
-ValeurCmp = FXMA108;
-IdModule  = ;
+ValeurCmp = GTL2003;
+IdModule  = SOT360-1;
 EndCmp
 
 BeginCmp
