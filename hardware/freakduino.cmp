@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = Wed 17 Jul 2013 12:24:46 PM NZST
+Cmp-Mod V01 Created by PcbNew date = Wed 17 Jul 2013 01:31:09 PM NZST
 
 BeginCmp
 TimeStamp = /51E37E38/51E3A9AC;
@@ -508,7 +508,7 @@ BeginCmp
 TimeStamp = /51E2B7E8/51E37565;
 Reference = U5;
 ValeurCmp = HT7750A;
-IdModule  = TO92;
+IdModule  = TO92-STRAIGHT;
 EndCmp
 
 BeginCmp
@@ -522,7 +522,7 @@ BeginCmp
 TimeStamp = /51E2B7E8/51E376B8;
 Reference = VR1;
 ValeurCmp = UA78M05CDCYG3;
-IdModule  = DPAK3;
+IdModule  = DPAK2;
 EndCmp
 
 BeginCmp
