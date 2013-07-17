@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by PcbNew date = Wed 17 Jul 2013 06:35:50 PM NZST
+Cmp-Mod V01 Created by PcbNew date = Wed 17 Jul 2013 09:10:21 PM NZST
 
 BeginCmp
 TimeStamp = /51E37E38/51E3A9AC;
@@ -11,7 +11,7 @@ BeginCmp
 TimeStamp = /51E2B7E8/51E3B90D;
 Reference = BATT1;
 ValeurCmp = BH321-1P;
-IdModule  = PIN_ARRAY_2X1;
+IdModule  = JST_S2B-XH-A;
 EndCmp
 
 BeginCmp

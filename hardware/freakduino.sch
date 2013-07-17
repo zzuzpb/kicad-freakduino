@@ -46,12 +46,6 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Sheet
-S 600  7150 800  500 
-U 51E3DB4C
-F0 "INTERFACE" 50
-F1 "interface.sch" 50
-$EndSheet
-$Sheet
 S 2400 7150 800  500 
 U 51E37E38
 F0 "RADIO" 50
@@ -481,4 +475,10 @@ Text GLabel 9400 4500 2    39   BiDi ~ 0
 PC5/ADC5/SCL
 Text GLabel 6600 3650 0    39   Input ~ 0
 RADIO_INT
+$Sheet
+S 600  7150 800  500 
+U 51E6502D
+F0 "INTERFACE" 50
+F1 "interface-alt.sch" 50
+$EndSheet
 $EndSCHEMATC
