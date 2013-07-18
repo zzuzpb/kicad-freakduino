@@ -30,7 +30,7 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
-LIBS:freakduino-cache
+LIBS:freakduino-alt-cache
 EELAYER 27 0
 EELAYER END
 $Descr A4 11693 8268
@@ -258,7 +258,7 @@ Wire Wire Line
 Wire Wire Line
 	4700 5700 4700 5950
 Wire Wire Line
-	4600 5950 5200 5950
+	4450 5950 5200 5950
 Connection ~ 4600 5950
 Wire Wire Line
 	4800 5950 4800 5700
@@ -691,4 +691,6 @@ Wire Wire Line
 NoConn ~ 7600 4600
 Text Notes 6300 2800 0    79   ~ 16
 DNI = "DO NOT INSTALL"
+Wire Wire Line
+	4450 5700 4450 5950
 $EndSCHEMATC

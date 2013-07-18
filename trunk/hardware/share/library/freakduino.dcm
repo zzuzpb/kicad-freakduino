@@ -1,4 +1,4 @@
-EESchema-DOCLIB  Version 2.0  Date: Thu 18 Jul 2013 06:55:16 PM NZST
+EESchema-DOCLIB  Version 2.0  Date: Fri 19 Jul 2013 01:23:07 AM NZST
 #
 $CMP ATMEGA328-QFP32
 D ATMEGA168A, TQFP32, 16k Flash, 1kB SRAM, 512B EEPROM
@@ -18,6 +18,10 @@ $ENDCMP
 #
 $CMP POWERJACK/THRU-3
 D DC Barrel Jack
+$ENDCMP
+#
+$CMP TPS61222
+D Low input voltage step-up converter SC-70 package
 $ENDCMP
 #
 $CMP UA78M05CDCYG3

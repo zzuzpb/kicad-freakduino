@@ -1,4 +1,4 @@
-PCBNEW-LibModule-V1  Thu 18 Jul 2013 10:07:23 PM NZST
+PCBNEW-LibModule-V1  Fri 19 Jul 2013 01:15:46 AM NZST
 # encoding utf-8
 Units mm
 $INDEX
@@ -11,8 +11,11 @@ JST_S2B-XH-A
 LED_0603_BLUE
 LED_0603_GREEN
 LED_0603_RED
+MLF-32_4x4_SINK
+SC-70-6
 SMA-GRUVIN
 SOT360-1
+SSOP28-GRUVIN
 SWDIP2
 SWPUSH_SPST_SMD
 SW_SPDT_SLIDE_90
@@ -431,6 +434,527 @@ Of 0 0 0
 Ro 0 0 0
 $EndSHAPE3D
 $EndMODULE LED_0603_RED
+$MODULE MLF-32_4x4_SINK
+Po 0 0 0 15 51E7E4DA 00000000 ~~
+Li MLF-32_4x4_SINK
+Cd MLF032 5x5mm package 4x4 VIAed GND PAD
+Sc 0
+AR /51E37E38/51E38832
+Op 0 0 0
+T0 0 -3.75 0.9 0.8 0 0.1 N V 21 N "U3"
+T1 0 3.75 0.8 0.8 0 0.1 N V 21 N "AT86RF231"
+DC -2.5 -2.5 -2.5 -2.25 0.2 21
+DS -2 -2.5 2 -2.5 0.2 21
+DS 2 -2.5 2.5 -2 0.2 21
+DS 2.5 -2 2.5 2 0.2 21
+DS 2.5 2 2 2.5 0.2 21
+DS 2 2.5 -2 2.5 0.2 21
+DS -2 2.5 -2.5 2 0.2 21
+DS -2.5 2 -2.5 -2 0.2 21
+DS -2.5 -2 -2 -2.5 0.2 21
+$PAD
+Sh "32" O 0.25 0.7 0 0 0
+Dr 0 0 0.15
+At SMD N 00888000
+Ne 16 "VSS"
+Po -1.75 -2.5
+.SolderMask 0.05
+.LocalClearance 0.125
+$EndPAD
+$PAD
+Sh "1" O 0.7 0.25 0 0 0
+Dr 0 0.15 0
+At SMD N 00888000
+Ne 0 ""
+Po -2.5 -1.75
+.SolderMask 0.05
+.LocalClearance 0.125
+$EndPAD
+$PAD
+Sh "2" O 0.7 0.25 0 0 0
+Dr 0 0.15 0
+At SMD N 00888000
+Ne 0 ""
+Po -2.5 -1.25
+.SolderMask 0.05
+.LocalClearance 0.125
+$EndPAD
+$PAD
+Sh "3" O 0.7 0.25 0 0 0
+Dr 0 0.15 0
+At SMD N 00888000
+Ne 16 "VSS"
+Po -2.5 -0.75
+.SolderMask 0.05
+.LocalClearance 0.125
+$EndPAD
+$PAD
+Sh "4" O 0.7 0.25 0 0 0
+Dr 0 0.15 0
+At SMD N 00888000
+Ne 1 "/RADIO/RFN"
+Po -2.5 -0.25
+.SolderMask 0.05
+.LocalClearance 0.125
+$EndPAD
+$PAD
+Sh "5" O 0.7 0.25 0 0 0
+Dr 0 0.15 0
+At SMD N 00888000
+Ne 2 "/RADIO/RFP"
+Po -2.5 0.25
+.SolderMask 0.05
+.LocalClearance 0.125
+$EndPAD
+$PAD
+Sh "6" O 0.7 0.25 0 0 0
+Dr 0 0.15 0
+At SMD N 00888000
+Ne 16 "VSS"
+Po -2.5 0.75
+.SolderMask 0.05
+.LocalClearance 0.125
+$EndPAD
+$PAD
+Sh "7" O 0.7 0.25 0 0 0
+Dr 0 0.15 0
+At SMD N 00888000
+Ne 16 "VSS"
+Po -2.5 1.25
+.SolderMask 0.05
+.LocalClearance 0.125
+$EndPAD
+$PAD
+Sh "8" O 0.7 0.25 0 0 0
+Dr 0 0.15 0
+At SMD N 00888000
+Ne 12 "RESET_N"
+Po -2.5 1.75
+.SolderMask 0.05
+.LocalClearance 0.125
+$EndPAD
+$PAD
+Sh "9" O 0.25 0.7 0 0 0
+Dr 0 0 -0.15
+At SMD N 00888000
+Ne 0 ""
+Po -1.75 2.5
+.SolderMask 0.05
+.LocalClearance 0.125
+$EndPAD
+$PAD
+Sh "10" O 0.25 0.7 0 0 0
+Dr 0 0 -0.15
+At SMD N 00888000
+Ne 0 ""
+Po -1.25 2.5
+.SolderMask 0.05
+.LocalClearance 0.125
+$EndPAD
+$PAD
+Sh "11" O 0.25 0.7 0 0 0
+Dr 0 0 -0.15
+At SMD N 00888000
+Ne 14 "SLP_TR"
+Po -0.75 2.5
+.SolderMask 0.05
+.LocalClearance 0.125
+$EndPAD
+$PAD
+Sh "12" O 0.25 0.7 0 0 0
+Dr 0 0 -0.15
+At SMD N 00888000
+Ne 16 "VSS"
+Po -0.25 2.5
+.SolderMask 0.05
+.LocalClearance 0.125
+$EndPAD
+$PAD
+Sh "13" O 0.25 0.7 0 0 0
+Dr 0 0 -0.15
+At SMD N 00888000
+Ne 16 "VSS"
+Po 0.25 2.5
+.SolderMask 0.05
+.LocalClearance 0.125
+$EndPAD
+$PAD
+Sh "14" O 0.25 0.7 0 0 0
+Dr 0 0 -0.15
+At SMD N 00888000
+Ne 8 "N-0000043"
+Po 0.75 2.5
+.SolderMask 0.05
+.LocalClearance 0.125
+$EndPAD
+$PAD
+Sh "15" O 0.25 0.7 0 0 0
+Dr 0 0 -0.15
+At SMD N 00888000
+Ne 15 "VCC3"
+Po 1.25 2.5
+.SolderMask 0.05
+.LocalClearance 0.125
+$EndPAD
+$PAD
+Sh "16" O 0.25 0.7 0 0 0
+Dr 0 0 -0.15
+At SMD N 00888000
+Ne 16 "VSS"
+Po 1.75 2.5
+.SolderMask 0.05
+.LocalClearance 0.125
+$EndPAD
+$PAD
+Sh "17" O 0.7 0.25 0 0 0
+Dr 0 -0.15 0
+At SMD N 00888000
+Ne 0 ""
+Po 2.5 1.75
+.SolderMask 0.05
+.LocalClearance 0.125
+$EndPAD
+$PAD
+Sh "17" O 0.7 0.25 0 0 0
+Dr 0 -0.15 0
+At SMD N 00888000
+Ne 0 ""
+Po 2.5 1.75
+.SolderMask 0.05
+.LocalClearance 0.125
+$EndPAD
+$PAD
+Sh "18" O 0.7 0.25 0 0 0
+Dr 0 -0.15 0
+At SMD N 00888000
+Ne 16 "VSS"
+Po 2.5 1.25
+.SolderMask 0.05
+.LocalClearance 0.125
+$EndPAD
+$PAD
+Sh "19" O 0.7 0.25 0 0 0
+Dr 0 -0.15 0
+At SMD N 00888000
+Ne 13 "SCLK"
+Po 2.5 0.75
+.SolderMask 0.05
+.LocalClearance 0.125
+$EndPAD
+$PAD
+Sh "20" O 0.7 0.25 0 0 0
+Dr 0 -0.15 0
+At SMD N 00888000
+Ne 4 "MISO"
+Po 2.5 0.25
+.SolderMask 0.05
+.LocalClearance 0.125
+$EndPAD
+$PAD
+Sh "21" O 0.7 0.25 0 0 0
+Dr 0 -0.15 0
+At SMD N 00888000
+Ne 16 "VSS"
+Po 2.5 -0.25
+.SolderMask 0.05
+.LocalClearance 0.125
+$EndPAD
+$PAD
+Sh "22" O 0.7 0.25 0 0 0
+Dr 0 -0.15 0
+At SMD N 00888000
+Ne 5 "MOSI"
+Po 2.5 -0.75
+.SolderMask 0.05
+.LocalClearance 0.125
+$EndPAD
+$PAD
+Sh "23" O 0.7 0.25 0 0 0
+Dr 0 -0.15 0
+At SMD N 00888000
+Ne 11 "RADIO_SEL_N"
+Po 2.5 -1.25
+.SolderMask 0.05
+.LocalClearance 0.125
+$EndPAD
+$PAD
+Sh "24" O 0.7 0.25 0 0 0
+Dr 0 -0.15 0
+At SMD N 00888000
+Ne 3 "INT"
+Po 2.5 -1.75
+.SolderMask 0.05
+.LocalClearance 0.125
+$EndPAD
+$PAD
+Sh "25" O 0.25 0.7 0 0 0
+Dr 0 0 0.15
+At SMD N 00888000
+Ne 10 "N-0000060"
+Po 1.75 -2.5
+.SolderMask 0.05
+.LocalClearance 0.125
+$EndPAD
+$PAD
+Sh "26" O 0.25 0.7 0 0 0
+Dr 0 0 0.15
+At SMD N 00888000
+Ne 9 "N-0000059"
+Po 1.25 -2.5
+.SolderMask 0.05
+.LocalClearance 0.125
+$EndPAD
+$PAD
+Sh "27" O 0.25 0.7 0 0 0
+Dr 0 0 0.15
+At SMD N 00888000
+Ne 16 "VSS"
+Po 0.75 -2.5
+.SolderMask 0.05
+.LocalClearance 0.125
+$EndPAD
+$PAD
+Sh "28" O 0.25 0.7 0 0 0
+Dr 0 0 0.15
+At SMD N 00888000
+Ne 7 "N-0000042"
+Po 0.25 -2.5
+.SolderMask 0.05
+.LocalClearance 0.125
+$EndPAD
+$PAD
+Sh "29" O 0.25 0.7 0 0 0
+Dr 0 0 0.15
+At SMD N 00888000
+Ne 6 "N-0000041"
+Po -0.25 -2.5
+.SolderMask 0.05
+.LocalClearance 0.125
+$EndPAD
+$PAD
+Sh "30" O 0.25 0.7 0 0 0
+Dr 0 0 0.15
+At SMD N 00888000
+Ne 16 "VSS"
+Po -0.75 -2.5
+.SolderMask 0.05
+.LocalClearance 0.125
+$EndPAD
+$PAD
+Sh "31" O 0.25 0.7 0 0 0
+Dr 0 0 0.15
+At SMD N 00888000
+Ne 16 "VSS"
+Po -1.25 -2.5
+.SolderMask 0.05
+.LocalClearance 0.125
+$EndPAD
+$PAD
+Sh "32" O 0.25 0.7 0 0 0
+Dr 0 0 0.15
+At SMD N 00888000
+Ne 16 "VSS"
+Po -1.75 -2.5
+.SolderMask 0.05
+.LocalClearance 0.125
+$EndPAD
+$PAD
+Sh "33" R 0.8 0.8 0 0 0
+Dr 0.5 0 0
+At STD N 00E0FFFF
+Ne 16 "VSS"
+Po -1.2 -1.2
+.SolderMask 0.05
+$EndPAD
+$PAD
+Sh "33" R 0.8 0.8 0 0 0
+Dr 0.5 0 0
+At STD N 00E0FFFF
+Ne 16 "VSS"
+Po -0.4 -1.2
+.SolderMask 0.05
+$EndPAD
+$PAD
+Sh "33" R 0.8 0.8 0 0 0
+Dr 0.5 0 0
+At STD N 00E0FFFF
+Ne 16 "VSS"
+Po 0.4 -1.2
+.SolderMask 0.05
+$EndPAD
+$PAD
+Sh "33" R 0.8 0.8 0 0 0
+Dr 0.5 0 0
+At STD N 00E0FFFF
+Ne 16 "VSS"
+Po 1.2 -1.2
+.SolderMask 0.05
+$EndPAD
+$PAD
+Sh "33" R 0.8 0.8 0 0 0
+Dr 0.5 0 0
+At STD N 00E0FFFF
+Ne 16 "VSS"
+Po -1.2 -0.4
+.SolderMask 0.05
+$EndPAD
+$PAD
+Sh "33" R 0.8 0.8 0 0 0
+Dr 0.5 0 0
+At STD N 00E0FFFF
+Ne 16 "VSS"
+Po -0.4 -0.4
+.SolderMask 0.05
+$EndPAD
+$PAD
+Sh "33" R 0.8 0.8 0 0 0
+Dr 0.5 0 0
+At STD N 00E0FFFF
+Ne 16 "VSS"
+Po 0.4 -0.4
+.SolderMask 0.05
+$EndPAD
+$PAD
+Sh "33" R 0.8 0.8 0 0 0
+Dr 0.5 0 0
+At STD N 00E0FFFF
+Ne 16 "VSS"
+Po 1.2 -0.4
+.SolderMask 0.05
+$EndPAD
+$PAD
+Sh "33" R 0.8 0.8 0 0 0
+Dr 0.5 0 0
+At STD N 00E0FFFF
+Ne 16 "VSS"
+Po -1.2 0.4
+.SolderMask 0.05
+$EndPAD
+$PAD
+Sh "33" R 0.8 0.8 0 0 0
+Dr 0.5 0 0
+At STD N 00E0FFFF
+Ne 16 "VSS"
+Po -0.4 0.4
+.SolderMask 0.05
+$EndPAD
+$PAD
+Sh "33" R 0.8 0.8 0 0 0
+Dr 0.5 0 0
+At STD N 00E0FFFF
+Ne 16 "VSS"
+Po 0.4 0.4
+.SolderMask 0.05
+$EndPAD
+$PAD
+Sh "33" R 0.8 0.8 0 0 0
+Dr 0.5 0 0
+At STD N 00E0FFFF
+Ne 16 "VSS"
+Po 1.2 0.4
+.SolderMask 0.05
+$EndPAD
+$PAD
+Sh "33" R 0.8 0.8 0 0 0
+Dr 0.5 0 0
+At STD N 00E0FFFF
+Ne 16 "VSS"
+Po -1.2 1.2
+.SolderMask 0.05
+$EndPAD
+$PAD
+Sh "33" R 0.8 0.8 0 0 0
+Dr 0.5 0 0
+At STD N 00E0FFFF
+Ne 16 "VSS"
+Po -0.4 1.2
+.SolderMask 0.05
+$EndPAD
+$PAD
+Sh "33" R 0.8 0.8 0 0 0
+Dr 0.5 0 0
+At STD N 00E0FFFF
+Ne 16 "VSS"
+Po 0.4 1.2
+.SolderMask 0.05
+$EndPAD
+$PAD
+Sh "33" R 0.8 0.8 0 0 0
+Dr 0.5 0 0
+At STD N 00E0FFFF
+Ne 16 "VSS"
+Po 1.2 1.2
+.SolderMask 0.05
+$EndPAD
+$SHAPE3D
+Na "share/modules/packages3d/smd/ATmega88P-MLF32.wrl"
+Sc 0.3937 0.3937 0.3937
+Of 0 0 0
+Ro 0 0 0
+$EndSHAPE3D
+$EndMODULE MLF-32_4x4_SINK
+$MODULE SC-70-6
+Po 0 0 0 15 51E7C400 00000000 ~~
+Li SC-70-6
+Sc 0
+AR 
+Op 0 0 0
+At SMD
+T0 0 0 0.35 0.3 0 0.075 N I 21 N "SC-70"
+T1 0 2.6 0.7493 0.7493 0 0.14986 N V 21 N "U***"
+DS 0.95 -0.6 0.95 0.6 0.15 21
+DS 0.95 0.6 -0.95 0.6 0.15 21
+DS -0.95 0.6 -0.95 -0.6 0.15 21
+DS -0.95 -0.6 0.95 -0.6 0.15 21
+$PAD
+Sh "1" R 0.35 0.85 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -0.65 1.1
+$EndPAD
+$PAD
+Sh "2" R 0.35 0.85 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 0 1.1
+$EndPAD
+$PAD
+Sh "3" R 0.35 0.85 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 0.65 1.1
+$EndPAD
+$PAD
+Sh "4" R 0.35 0.85 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 0.65 -1.1
+$EndPAD
+$PAD
+Sh "5" R 0.35 0.85 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 0 -1.1
+$EndPAD
+$PAD
+Sh "6" R 0.35 0.85 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -0.65 -1.1
+$EndPAD
+$SHAPE3D
+Na "packages3d/sc70-6.wrl"
+Sc 1 1 1
+Of 0 0 0
+Ro 0 0 0
+$EndSHAPE3D
+$EndMODULE SC-70-6
 $MODULE SMA-GRUVIN
 Po 0 0 0 15 51E63AF4 00000000 ~~
 Li SMA-GRUVIN
@@ -528,6 +1052,8 @@ Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
 Po -0.325 2.93
+.SolderMask 0.1
+.LocalClearance 0.2
 $EndPAD
 $PAD
 Sh "6" R 0.4 1.35 0 0 0
@@ -535,6 +1061,8 @@ Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
 Po 0.325 2.93
+.SolderMask 0.1
+.LocalClearance 0.2
 $EndPAD
 $PAD
 Sh "7" R 0.4 1.35 0 0 0
@@ -542,6 +1070,8 @@ Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
 Po 0.975 2.93
+.SolderMask 0.1
+.LocalClearance 0.2
 $EndPAD
 $PAD
 Sh "8" R 0.4 1.35 0 0 0
@@ -549,6 +1079,8 @@ Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
 Po 1.625 2.93
+.SolderMask 0.1
+.LocalClearance 0.2
 $EndPAD
 $PAD
 Sh "19" R 0.4 1.35 0 0 0
@@ -556,6 +1088,8 @@ Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
 Po -2.265 -2.93
+.SolderMask 0.1
+.LocalClearance 0.2
 $EndPAD
 $PAD
 Sh "2" R 0.4 1.35 0 0 0
@@ -563,6 +1097,8 @@ Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
 Po -2.275 2.93
+.SolderMask 0.1
+.LocalClearance 0.2
 $EndPAD
 $PAD
 Sh "3" R 0.4 1.35 0 0 0
@@ -570,6 +1106,8 @@ Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
 Po -1.625 2.93
+.SolderMask 0.1
+.LocalClearance 0.2
 $EndPAD
 $PAD
 Sh "4" R 0.4 1.35 0 0 0
@@ -577,6 +1115,8 @@ Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
 Po -0.975 2.93
+.SolderMask 0.1
+.LocalClearance 0.2
 $EndPAD
 $PAD
 Sh "12" R 0.4 1.35 0 0 0
@@ -584,6 +1124,8 @@ Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
 Po 2.275 -2.93
+.SolderMask 0.1
+.LocalClearance 0.2
 $EndPAD
 $PAD
 Sh "13" R 0.4 1.35 0 0 0
@@ -591,6 +1133,8 @@ Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
 Po 1.625 -2.93
+.SolderMask 0.1
+.LocalClearance 0.2
 $EndPAD
 $PAD
 Sh "14" R 0.4 1.35 0 0 0
@@ -598,6 +1142,8 @@ Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
 Po 0.975 -2.93
+.SolderMask 0.1
+.LocalClearance 0.2
 $EndPAD
 $PAD
 Sh "15" R 0.4 1.35 0 0 0
@@ -605,6 +1151,8 @@ Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
 Po 0.325 -2.93
+.SolderMask 0.1
+.LocalClearance 0.2
 $EndPAD
 $PAD
 Sh "16" R 0.4 1.35 0 0 0
@@ -612,6 +1160,8 @@ Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
 Po -0.325 -2.93
+.SolderMask 0.1
+.LocalClearance 0.2
 $EndPAD
 $PAD
 Sh "17" R 0.4 1.35 0 0 0
@@ -619,6 +1169,8 @@ Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
 Po -0.975 -2.93
+.SolderMask 0.1
+.LocalClearance 0.2
 $EndPAD
 $PAD
 Sh "9" R 0.4 1.35 0 0 0
@@ -626,6 +1178,8 @@ Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
 Po 2.275 2.93
+.SolderMask 0.1
+.LocalClearance 0.2
 $EndPAD
 $PAD
 Sh "18" R 0.4 1.35 0 0 0
@@ -633,6 +1187,8 @@ Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
 Po -1.625 -2.93
+.SolderMask 0.1
+.LocalClearance 0.2
 $EndPAD
 $PAD
 Sh "1" R 0.6 1.35 0 0 0
@@ -640,6 +1196,8 @@ Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
 Po -3.025 2.93
+.SolderMask 0.1
+.LocalClearance 0.2
 $EndPAD
 $PAD
 Sh "10" R 0.6 1.35 0 0 0
@@ -647,6 +1205,8 @@ Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
 Po 3.025 2.93
+.SolderMask 0.1
+.LocalClearance 0.2
 $EndPAD
 $PAD
 Sh "11" R 0.6 1.35 0 0 0
@@ -654,6 +1214,8 @@ Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
 Po 3.025 -2.93
+.SolderMask 0.1
+.LocalClearance 0.2
 $EndPAD
 $PAD
 Sh "20" R 0.6 1.35 0 0 0
@@ -661,6 +1223,8 @@ Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
 Po -3.025 -2.93
+.SolderMask 0.1
+.LocalClearance 0.2
 $EndPAD
 $SHAPE3D
 Na "smd/smd_dil/tssop-20.wrl"
@@ -669,6 +1233,283 @@ Of 0 0 0
 Ro 0 0 0
 $EndSHAPE3D
 $EndMODULE SOT360-1
+$MODULE SSOP28-GRUVIN
+Po 0 0 0 15 51E7E9B3 00000000 ~~
+Li SSOP28-GRUVIN
+Kw CMS SSOP SMD
+Sc 0
+AR /51E3C427/51E3CBA2
+Op 0 0 0
+At SMD
+T0 6.25 -0.5 0.762 0.762 0 0.127 N V 21 N "U1"
+T1 0 1.143 0.762 0.762 0 0.127 N I 21 N "FT232-SSOP28"
+DC -4.572 2.159 -4.826 1.905 0.127 21
+DS -5.08 -0.635 -4.318 -0.635 0.127 21
+DS -4.318 -0.635 -4.318 0.635 0.127 21
+DS -4.318 0.635 -5.08 0.635 0.127 21
+DS 5.207 2.667 -5.08 2.667 0.127 21
+DS -5.08 -2.667 5.207 -2.667 0.127 21
+DS -5.08 -2.667 -5.08 2.667 0.127 21
+DS 5.207 -2.667 5.207 2.667 0.127 21
+$PAD
+Sh "1" R 0.4064 1.27 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 8 "MCU_RX"
+Po -4.191 3.556
+.SolderMask 0.1
+.LocalClearance 0.2
+$EndPAD
+$PAD
+Sh "2" R 0.4064 1.27 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 7 "DTR_N"
+Po -3.556 3.556
+.SolderMask 0.1
+.LocalClearance 0.2
+$EndPAD
+$PAD
+Sh "3" R 0.4064 1.27 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -2.8956 3.556
+.SolderMask 0.1
+.LocalClearance 0.2
+$EndPAD
+$PAD
+Sh "4" R 0.4064 1.27 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 10 "VBUS"
+Po -2.2352 3.556
+.SolderMask 0.1
+.LocalClearance 0.2
+$EndPAD
+$PAD
+Sh "5" R 0.4064 1.27 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 9 "MCU_TX"
+Po -1.6002 3.556
+.SolderMask 0.1
+.LocalClearance 0.2
+$EndPAD
+$PAD
+Sh "6" R 0.4064 1.27 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -0.9398 3.556
+.SolderMask 0.1
+.LocalClearance 0.2
+$EndPAD
+$PAD
+Sh "7" R 0.4064 1.27 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 11 "VSS"
+Po -0.2794 3.556
+.SolderMask 0.1
+.LocalClearance 0.2
+$EndPAD
+$PAD
+Sh "8" R 0.4064 1.27 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 0.3556 3.556
+.SolderMask 0.1
+.LocalClearance 0.2
+$EndPAD
+$PAD
+Sh "9" R 0.4064 1.27 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 1.016 3.556
+.SolderMask 0.1
+.LocalClearance 0.2
+$EndPAD
+$PAD
+Sh "10" R 0.4064 1.27 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 1.651 3.556
+.SolderMask 0.1
+.LocalClearance 0.2
+$EndPAD
+$PAD
+Sh "11" R 0.4064 1.27 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 2.3114 3.556
+.SolderMask 0.1
+.LocalClearance 0.2
+$EndPAD
+$PAD
+Sh "12" R 0.4064 1.27 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 2.9718 3.556
+.SolderMask 0.1
+.LocalClearance 0.2
+$EndPAD
+$PAD
+Sh "13" R 0.4064 1.27 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 3.6068 3.556
+.SolderMask 0.1
+.LocalClearance 0.2
+$EndPAD
+$PAD
+Sh "14" R 0.4064 1.27 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 4.2672 3.556
+.SolderMask 0.1
+.LocalClearance 0.2
+$EndPAD
+$PAD
+Sh "15" R 0.4064 1.27 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 2 "/USB/DP"
+Po 4.2672 -3.556
+.SolderMask 0.1
+.LocalClearance 0.2
+$EndPAD
+$PAD
+Sh "16" R 0.4064 1.27 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 1 "/USB/DM"
+Po 3.6068 -3.556
+.SolderMask 0.1
+.LocalClearance 0.2
+$EndPAD
+$PAD
+Sh "17" R 0.4064 1.27 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 6 "/USB/USB_3V3OUT"
+Po 2.9972 -3.556
+.SolderMask 0.1
+.LocalClearance 0.2
+$EndPAD
+$PAD
+Sh "18" R 0.4064 1.27 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 11 "VSS"
+Po 2.3114 -3.556
+.SolderMask 0.1
+.LocalClearance 0.2
+$EndPAD
+$PAD
+Sh "19" R 0.4064 1.27 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 3 "/USB/FTDI_RST_N"
+Po 1.651 -3.556
+.SolderMask 0.1
+.LocalClearance 0.2
+$EndPAD
+$PAD
+Sh "20" R 0.4064 1.27 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 10 "VBUS"
+Po 1.016 -3.556
+.SolderMask 0.1
+.LocalClearance 0.2
+$EndPAD
+$PAD
+Sh "21" R 0.4064 1.27 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 11 "VSS"
+Po 0.3556 -3.556
+.SolderMask 0.1
+.LocalClearance 0.2
+$EndPAD
+$PAD
+Sh "22" R 0.4064 1.27 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 4 "/USB/RXLED_N"
+Po -0.2794 -3.556
+.SolderMask 0.1
+.LocalClearance 0.2
+$EndPAD
+$PAD
+Sh "23" R 0.4064 1.27 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 5 "/USB/TXLED_N"
+Po -0.9398 -3.556
+.SolderMask 0.1
+.LocalClearance 0.2
+$EndPAD
+$PAD
+Sh "24" R 0.4064 1.27 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -1.6002 -3.556
+.SolderMask 0.1
+.LocalClearance 0.2
+$EndPAD
+$PAD
+Sh "25" R 0.4064 1.27 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 11 "VSS"
+Po -2.2352 -3.556
+.SolderMask 0.1
+.LocalClearance 0.2
+$EndPAD
+$PAD
+Sh "26" R 0.4064 1.27 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 11 "VSS"
+Po -2.8956 -3.556
+.SolderMask 0.1
+.LocalClearance 0.2
+$EndPAD
+$PAD
+Sh "27" R 0.4064 1.27 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -3.556 -3.556
+.SolderMask 0.1
+.LocalClearance 0.2
+$EndPAD
+$PAD
+Sh "28" R 0.4064 1.27 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -4.191 -3.556
+.SolderMask 0.1
+.LocalClearance 0.2
+$EndPAD
+$SHAPE3D
+Na "smd/cms_soj28.wrl"
+Sc 0.256 0.5 0.25
+Of 0 0 0
+Ro 0 0 0
+$EndSHAPE3D
+$EndMODULE SSOP28-GRUVIN
 $MODULE SWDIP2
 Po 0 0 0 15 51E54C00 00000000 ~~
 Li SWDIP2
