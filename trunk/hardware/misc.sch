@@ -37,7 +37,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 6 6
 Title "FREAKDUINO-CHIBI 2.4GHz"
-Date "17 jul 2013"
+Date "18 jul 2013"
 Rev "v2.1a"
 Comp "KiCAD version by Gruvin"
 Comment1 ""
@@ -107,10 +107,10 @@ $EndComp
 Wire Wire Line
 	3900 4750 3900 4950
 $Comp
-L VSS #PWR071
+L VSS #PWR052
 U 1 1 51E3F303
 P 3900 4950
-F 0 "#PWR071" H 3900 4950 30  0001 C CNN
+F 0 "#PWR052" H 3900 4950 30  0001 C CNN
 F 1 "VSS" H 3900 4880 30  0000 C CNN
 F 2 "" H 3900 4950 60  0000 C CNN
 F 3 "" H 3900 4950 60  0000 C CNN
