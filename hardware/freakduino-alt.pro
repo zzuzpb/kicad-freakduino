@@ -1,13 +1,11 @@
-update=Thu 18 Jul 2013 10:00:35 PM NZST
+update=Fri 19 Jul 2013 01:25:06 AM NZST
 version=1
-last_client=pcbnew
+last_client=kicad
 [cvpcb]
 version=1
 NetIExt=net
 [cvpcb/libraries]
 EquName1=devcms
-[general]
-version=1
 [eeschema]
 version=1
 LibDir=share/library
@@ -54,8 +52,8 @@ LastNetListRead=freakduino-alt.net
 UseCmpFile=1
 PadDrill=0.000000000000
 PadDrillOvalY=0.000000000000
-PadSizeH=0.300000000000
-PadSizeV=0.400000000000
+PadSizeH=0.350000000000
+PadSizeV=0.850000000000
 PcbTextSizeV=1.500000000000
 PcbTextSizeH=1.500000000000
 PcbTextThickness=0.300000000000
@@ -86,3 +84,5 @@ LibName14=led
 LibName15=dip_sockets
 LibName16=pga_sockets
 LibName17=valves
+[general]
+version=1

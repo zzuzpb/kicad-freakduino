@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = Thu 18 Jul 2013 06:38:45 PM NZST
+Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = Fri 19 Jul 2013 01:20:46 AM NZST
 
 BeginCmp
 TimeStamp = /51E37E38/51E3A9AC;
@@ -22,9 +22,9 @@ IdModule  = BATT_HOLDER_2AA;
 EndCmp
 
 BeginCmp
-TimeStamp = /51E37E38/51E3A326;
+TimeStamp = /51E37E38/51E793F4;
 Reference = BLN1;
-ValeurCmp = LDB182G4510C-110;
+ValeurCmp = 2450BL15B100E;
 IdModule  = BALUN_SMD_0805;
 EndCmp
 
@@ -87,8 +87,8 @@ EndCmp
 BeginCmp
 TimeStamp = /51E2B7E8/51E37720;
 Reference = C9;
-ValeurCmp = 100u/16V;
-IdModule  = C_ELECT_6.5x7mm;
+ValeurCmp = 22u/16V/TANT;
+IdModule  = SM0805;
 EndCmp
 
 BeginCmp
@@ -129,8 +129,8 @@ EndCmp
 BeginCmp
 TimeStamp = /51E2B7E8/51E3771A;
 Reference = C15;
-ValeurCmp = 100u/16V;
-IdModule  = C_ELECT_6.5x7mm;
+ValeurCmp = 10u/10V;
+IdModule  = SM0603_Capa;
 EndCmp
 
 BeginCmp
@@ -148,7 +148,7 @@ IdModule  = SM0603_Capa;
 EndCmp
 
 BeginCmp
-TimeStamp = /51E3DB4C/51E3DC08;
+TimeStamp = /51E6502D/51E3DC08;
 Reference = C18;
 ValeurCmp = 0u1;
 IdModule  = SM0603_Capa;
@@ -169,7 +169,7 @@ IdModule  = SM0603_Capa;
 EndCmp
 
 BeginCmp
-TimeStamp = /51E3DB4C/51E3DBD6;
+TimeStamp = /51E6502D/51E3DBD6;
 Reference = C21;
 ValeurCmp = 0u1;
 IdModule  = SM0603_Capa;
@@ -190,14 +190,14 @@ IdModule  = SM0603_Capa;
 EndCmp
 
 BeginCmp
-TimeStamp = /51E3DB4C/51E3E15B;
+TimeStamp = /51E6502D/51E3E15B;
 Reference = D1;
 ValeurCmp = BLUE;
 IdModule  = LED-0603;
 EndCmp
 
 BeginCmp
-TimeStamp = /51E3DB4C/51E3E161;
+TimeStamp = /51E6502D/51E3E161;
 Reference = D2;
 ValeurCmp = RED;
 IdModule  = LED-0603;
@@ -218,14 +218,7 @@ IdModule  = LED-0603;
 EndCmp
 
 BeginCmp
-TimeStamp = /51E2B7E8/51E375B3;
-Reference = D5;
-ValeurCmp = DO-35;
-IdModule  = D3;
-EndCmp
-
-BeginCmp
-TimeStamp = /51E3DB4C/51E3E730;
+TimeStamp = /51E6502D/51E3E730;
 Reference = D6;
 ValeurCmp = RED;
 IdModule  = LED-0603;
@@ -253,7 +246,7 @@ IdModule  = HOLE_130x250mil;
 EndCmp
 
 BeginCmp
-TimeStamp = /51E3DB4C/51E3E41B;
+TimeStamp = /51E6502D/51E3E41B;
 Reference = H3;
 ValeurCmp = H3X2;
 IdModule  = pin_array_3x2;
@@ -295,35 +288,35 @@ IdModule  = PIN_ARRAY_3X1;
 EndCmp
 
 BeginCmp
-TimeStamp = /51E3DB4C/51E3DC42;
+TimeStamp = /51E6502D/51E3DC42;
 Reference = JP2;
 ValeurCmp = 1X2;
 IdModule  = PIN_ARRAY_2X1;
 EndCmp
 
 BeginCmp
-TimeStamp = /51E3DB4C/51E3E7AF;
+TimeStamp = /51E6502D/51E3E7AF;
 Reference = JP3;
 ValeurCmp = JP6/THRU;
 IdModule  = PIN_ARRAY-6X1;
 EndCmp
 
 BeginCmp
-TimeStamp = /51E3DB4C/51E3E7BB;
+TimeStamp = /51E6502D/51E3E7BB;
 Reference = JP4;
 ValeurCmp = JP8/THRU;
 IdModule  = pin_array_8x1;
 EndCmp
 
 BeginCmp
-TimeStamp = /51E3DB4C/51E3E7C1;
+TimeStamp = /51E6502D/51E3E7C1;
 Reference = JP5;
 ValeurCmp = JP6/THRU;
 IdModule  = PIN_ARRAY-6X1;
 EndCmp
 
 BeginCmp
-TimeStamp = /51E3DB4C/51E3E7B5;
+TimeStamp = /51E6502D/51E3E7B5;
 Reference = JP6;
 ValeurCmp = JP8/THRU;
 IdModule  = pin_array_8x1;
@@ -346,19 +339,19 @@ EndCmp
 BeginCmp
 TimeStamp = /51E2B7E8/51E375A4;
 Reference = L2;
-ValeurCmp = 47uH;
-IdModule  = R5;
+ValeurCmp = 4.7uH;
+IdModule  = SM0603;
 EndCmp
 
 BeginCmp
-TimeStamp = /51E3DB4C/51E3E16B;
+TimeStamp = /51E6502D/51E3E16B;
 Reference = R1;
 ValeurCmp = 220;
 IdModule  = SM0603;
 EndCmp
 
 BeginCmp
-TimeStamp = /51E3DB4C/51E3E171;
+TimeStamp = /51E6502D/51E3E171;
 Reference = R2;
 ValeurCmp = 220;
 IdModule  = SM0603;
@@ -372,14 +365,14 @@ IdModule  = SM0603;
 EndCmp
 
 BeginCmp
-TimeStamp = /51E3DB4C/51E3E77A;
+TimeStamp = /51E6502D/51E3E77A;
 Reference = R4;
 ValeurCmp = 1K;
 IdModule  = SM0603;
 EndCmp
 
 BeginCmp
-TimeStamp = /51E3DB4C/51E3E780;
+TimeStamp = /51E6502D/51E3E780;
 Reference = R5;
 ValeurCmp = 1K;
 IdModule  = SM0603;
@@ -414,7 +407,7 @@ IdModule  = SM0603;
 EndCmp
 
 BeginCmp
-TimeStamp = /51E3DB4C/51E3DBD0;
+TimeStamp = /51E6502D/51E3DBD0;
 Reference = R10;
 ValeurCmp = 10K;
 IdModule  = SM0603;
@@ -428,7 +421,7 @@ IdModule  = SM0603;
 EndCmp
 
 BeginCmp
-TimeStamp = /51E3DB4C/51E3E73C;
+TimeStamp = /51E6502D/51E3E73C;
 Reference = R12;
 ValeurCmp = 220;
 IdModule  = SM0603;
@@ -470,7 +463,7 @@ IdModule  = SWPUSH_SPST_SMD;
 EndCmp
 
 BeginCmp
-TimeStamp = /51E3DB4C/51E3E153;
+TimeStamp = /51E6502D/51E3E153;
 Reference = SW1;
 ValeurCmp = DIPSW4_DIP;
 IdModule  = SWDIP2;
@@ -480,7 +473,7 @@ BeginCmp
 TimeStamp = /51E3C427/51E3CBA2;
 Reference = U1;
 ValeurCmp = FT232-SSOP28;
-IdModule  = SSOP28;
+IdModule  = SSOP28-GRUVIN;
 EndCmp
 
 BeginCmp
@@ -494,21 +487,21 @@ BeginCmp
 TimeStamp = /51E37E38/51E38832;
 Reference = U3;
 ValeurCmp = AT86RF231;
-IdModule  = QFN32;
+IdModule  = MLF-32_4x4_SINK;
 EndCmp
 
 BeginCmp
-TimeStamp = /51E3DB4C/51E5E9C5;
+TimeStamp = /51E6502D/51E5E9C5;
 Reference = U4;
 ValeurCmp = GTL2003;
 IdModule  = SOT360-1;
 EndCmp
 
 BeginCmp
-TimeStamp = /51E2B7E8/51E37565;
+TimeStamp = /51E2B7E8/51E7CD88;
 Reference = U5;
-ValeurCmp = HT7750A;
-IdModule  = TO92-STRAIGHT;
+ValeurCmp = TPS61222;
+IdModule  = SC-70-6;
 EndCmp
 
 BeginCmp

@@ -30,7 +30,7 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
-LIBS:freakduino-cache
+LIBS:freakduino-alt-cache
 EELAYER 27 0
 EELAYER END
 $Descr A4 11693 8268
@@ -61,7 +61,7 @@ $Sheet
 S 1500 7150 800  500 
 U 51E2B7E8
 F0 "POWER" 50
-F1 "power.sch" 50
+F1 "power-alt.sch" 50
 $EndSheet
 $Sheet
 S 4200 7150 800  500 
@@ -408,7 +408,7 @@ Wire Wire Line
 Wire Wire Line
 	7800 5900 7800 6100
 Wire Wire Line
-	7700 6100 7900 6100
+	7500 6100 7900 6100
 Connection ~ 7700 6100
 Wire Wire Line
 	7900 6100 7900 5900
@@ -481,4 +481,6 @@ U 51E6502D
 F0 "INTERFACE" 50
 F1 "interface-alt.sch" 50
 $EndSheet
+Wire Wire Line
+	7500 5900 7500 6100
 $EndSCHEMATC
