@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = Thu 18 Jul 2013 04:54:26 PM NZST
+Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = Thu 18 Jul 2013 06:38:45 PM NZST
 
 BeginCmp
 TimeStamp = /51E37E38/51E3A9AC;
@@ -25,7 +25,7 @@ BeginCmp
 TimeStamp = /51E37E38/51E3A326;
 Reference = BLN1;
 ValeurCmp = LDB182G4510C-110;
-IdModule  = ;
+IdModule  = BALUN_SMD_0805;
 EndCmp
 
 BeginCmp
