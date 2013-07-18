@@ -49,7 +49,7 @@ $Sheet
 S 2400 7150 800  500 
 U 51E37E38
 F0 "RADIO" 50
-F1 "radio.sch" 50
+F1 "radio-alt.sch" 50
 $EndSheet
 $Sheet
 S 3300 7150 800  500 
@@ -479,6 +479,6 @@ $Sheet
 S 600  7150 800  500 
 U 51E6502D
 F0 "INTERFACE" 50
-F1 "interface.sch" 50
+F1 "interface-alt.sch" 50
 $EndSheet
 $EndSCHEMATC
