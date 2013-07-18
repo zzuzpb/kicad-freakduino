@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by PcbNew date = Wed 17 Jul 2013 11:04:54 PM NZST
+Cmp-Mod V01 Created by PcbNew date = Thu 18 Jul 2013 02:07:16 PM NZST
 
 BeginCmp
 TimeStamp = /51E37E38/51E3A9AC;
@@ -88,7 +88,7 @@ BeginCmp
 TimeStamp = /51E2B7E8/51E37720;
 Reference = C9;
 ValeurCmp = 100u/16V;
-IdModule  = C1V5;
+IdModule  = C_ELECT_6.5x7mm;
 EndCmp
 
 BeginCmp
@@ -130,7 +130,7 @@ BeginCmp
 TimeStamp = /51E2B7E8/51E3771A;
 Reference = C15;
 ValeurCmp = 100u/16V;
-IdModule  = C1V5;
+IdModule  = C_ELECT_6.5x7mm;
 EndCmp
 
 BeginCmp
