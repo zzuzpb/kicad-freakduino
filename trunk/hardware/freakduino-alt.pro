@@ -1,6 +1,6 @@
-update=Fri 19 Jul 2013 02:30:26 AM NZST
+update=Fri 19 Jul 2013 08:46:40 PM NZST
 version=1
-last_client=kicad
+last_client=pcbnew
 [cvpcb]
 version=1
 NetIExt=net
@@ -46,14 +46,16 @@ LibName28=opto
 LibName29=atmel
 LibName30=contrib
 LibName31=valves
+[general]
+version=1
 [pcbnew]
 version=1
 LastNetListRead=freakduino-alt.net
 UseCmpFile=1
-PadDrill=0.000000000000
-PadDrillOvalY=0.000000000000
-PadSizeH=0.350000000000
-PadSizeV=0.850000000000
+PadDrill=0.500000000000
+PadDrillOvalY=0.500000000000
+PadSizeH=0.800000000000
+PadSizeV=0.800000000000
 PcbTextSizeV=1.500000000000
 PcbTextSizeH=1.500000000000
 PcbTextThickness=0.300000000000
@@ -84,5 +86,3 @@ LibName14=led
 LibName15=dip_sockets
 LibName16=pga_sockets
 LibName17=valves
-[general]
-version=1
