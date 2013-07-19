@@ -2,6 +2,16 @@
 
 = Project Milestones =
 
-==First completed PCB==
+==First completed PCB r38==
 
-*r38* - First completed PCB, using substituted parts as required by availability. See `freakduino-alt.pro`, etc.
+First completed PCB, using substituted parts as required by availability. See `freakduino-alt.pro`, etc.
+
+===Notes for r38 Milestone===
+
+The final routing solution ended up significantly different to Akiba's original design, simply because it was easier to just route using my own brain than try to copy his exact layout. (The different battery holder mounting hole position(s) and the two substituted chips with supporting parts mandated changes, anyway.) However, I was careful to leave the user interaction devices -- antenna connector, dip switches, jumpers, etc -- in very similar to original locations, so that the original documentation may better apply to this design.
+
+Looks like the parts in one-off quantities at end-user retail are going to amount to over NZ$130, including PCB fabrication.
+
+The FT232RL is especially high priced, at $11.88. I am considering changing that to the ATmega16U2, with open source USB-to-serial firmware, as used on the more modern Arduinos.
+
+In any case, this exercise has been all about gaining experience, so well worth the cost, for me anyway. I am looking forward to having the test build of the KiCAD Freakduino done and dusted, so I can move on to much smaller boards, for use as discrete sensor network nodes. Should be fun!
