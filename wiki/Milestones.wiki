@@ -2,11 +2,11 @@
 
 = Project Milestones =
 
-==First completed PCB r38==
+==First completed PCB r42==
 
 First completed PCB, using substituted parts as required by availability. See `freakduino-alt.pro`, etc.
 
-===Notes for r38 Milestone===
+===Notes for r42 Milestone===
 
 The final routing solution ended up significantly different to Akiba's original design, simply because it was easier to just route using my own brain than try to copy his exact layout. (The different battery holder mounting hole position(s) and the two substituted chips with supporting parts mandated changes, anyway.) However, I was careful to leave the user interaction devices -- antenna and power connectors, dip switches, jumpers and LEDs -- in very similar to original locations, so that the original documentation may better apply to this design.
 
