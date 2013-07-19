@@ -8,7 +8,7 @@ First completed PCB, using substituted parts as required by availability. See `f
 
 ===Notes for r38 Milestone===
 
-The final routing solution ended up significantly different to Akiba's original design, simply because it was easier to just route using my own brain than try to copy his exact layout. (The different battery holder mounting hole position(s) and the two substituted chips with supporting parts mandated changes, anyway.) However, I was careful to leave the user interaction devices -- antenna connector, dip switches, jumpers, etc -- in very similar to original locations, so that the original documentation may better apply to this design.
+The final routing solution ended up significantly different to Akiba's original design, simply because it was easier to just route using my own brain than try to copy his exact layout. (The different battery holder mounting hole position(s) and the two substituted chips with supporting parts mandated changes, anyway.) However, I was careful to leave the user interaction devices -- antenna and power connectors, dip switches, jumpers and LEDs -- in very similar to original locations, so that the original documentation may better apply to this design.
 
 Looks like the parts in one-off quantities at end-user retail are going to amount to over NZ$130, including PCB fabrication.
 
