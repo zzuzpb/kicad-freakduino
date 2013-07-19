@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by PcbNew date = Fri 19 Jul 2013 08:44:47 PM NZST
+Cmp-Mod V01 Created by PcbNew date = Fri 19 Jul 2013 09:02:18 PM NZST
 
 BeginCmp
 TimeStamp = /51E37E38/51E3A9AC;
@@ -487,7 +487,7 @@ BeginCmp
 TimeStamp = /51E37E38/51E38832;
 Reference = U3;
 ValeurCmp = AT86RF231;
-IdModule  = MLF-32_2x2_SINK;
+IdModule  = QFN32_2x2-SINK;
 EndCmp
 
 BeginCmp
