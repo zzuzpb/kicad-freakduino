@@ -1,6 +1,6 @@
-update=Fri 19 Jul 2013 08:46:40 PM NZST
+update=Fri 19 Jul 2013 11:45:22 PM NZST
 version=1
-last_client=pcbnew
+last_client=kicad
 [cvpcb]
 version=1
 NetIExt=net
@@ -46,8 +46,6 @@ LibName28=opto
 LibName29=atmel
 LibName30=contrib
 LibName31=valves
-[general]
-version=1
 [pcbnew]
 version=1
 LastNetListRead=freakduino-alt.net
@@ -86,3 +84,5 @@ LibName14=led
 LibName15=dip_sockets
 LibName16=pga_sockets
 LibName17=valves
+[general]
+version=1
