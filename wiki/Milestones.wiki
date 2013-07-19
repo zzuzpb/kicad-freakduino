@@ -1,0 +1,7 @@
+#summary Project Milestones with repository revisions numbers
+
+= Project Milestones =
+
+==First completed PCB==
+
+*r38* - First completed PCB, using substituted parts as required by availability. See `freakduino-alt.pro`, etc.
