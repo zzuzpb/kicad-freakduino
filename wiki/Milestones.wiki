@@ -2,6 +2,12 @@
 
 = Project Milestones =
 
+==Completed 'Final' Tidying Changes r55==
+
+2013-07-21: A bunch of minor issues corrected, including track width increases, silk text-to-component collision fixes, etc. 
+
+I _think_ this one is finally production ready.
+
 ==First completed PCB r42==
 
 First completed PCB, using substituted parts as required by availability. See KiCAD Project file `freakduino-alt.pro`, etc.
