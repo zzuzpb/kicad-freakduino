@@ -4,11 +4,25 @@
 
 ==First completed PCB r42==
 
-First completed PCB, using substituted parts as required by availability. See `freakduino-alt.pro`, etc.
+First completed PCB, using substituted parts as required by availability. See KiCAD Project file `freakduino-alt.pro`, etc.
+
+Some components and their related layout design work differ from the authentic Freakduino v2.1a. This was driven in the first instance from lack of availability of certain parts, at the time. However, a source was finally found in China or those parts, so I'll _probably_ re-do the PCB design for `freakduino.pro` (no '-alt') KiCAD Project files, using only the original parts and schematic.
+
+Oh and, some minor layout errors were found with regard to positioning of some 0u1 decoupling capacitors (C18, C20, C21 from memory) being not physically near the chips they were intended to be -- from my interpretation of the schematic, anyway. These were "corrected" in this KiCAD rendition.
+
+===PCB Layout Overview===
+
+====A 3D View====
+
+[http://kicad-freakduino.googlecode.com/svn/wiki/Milestones.attach/pcb-3d-r45.png]
+
+====CAD View====
+
+[http://kicad-freakduino.googlecode.com/svn/wiki/Milestones.attach/pcb-layout-r45.png]
 
 ===Notes for r42 Milestone===
 
-The final routing solution ended up significantly different to Akiba's original design, simply because it was easier to just route using my own brain than try to copy his exact layout. (The different battery holder mounting hole position(s) and the two substituted chips with supporting parts mandated changes, anyway.) However, I was careful to leave the user interaction devices -- antenna and power connectors, dip switches, jumpers and LEDs -- in very similar to original locations, so that the original documentation may better apply to this design.
+The final routing solution ended up significantly different to Akiba's original design, because it just seemed easier to route using my own brain, than trying to copy. (The different battery holder mounting hole position(s) and the two substituted chips with supporting parts mandated changes, anyway.) However, I was careful to leave the user interaction devices -- antenna and power connectors, dip switches, jumpers and LEDs -- in very similar to original locations, so that the original documentation may better apply to this design.
 
 Looks like the parts in one-off quantities at end-user retail are going to amount to over NZ$130, including PCB fabrication.
 
