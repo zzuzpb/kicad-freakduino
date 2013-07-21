@@ -2,11 +2,22 @@
 
 = Project Milestones =
 
-==Completed 'Final' Tidying Changes r55==
+==Completed 'Final' Tidying Changes r56==
 
 2013-07-21: A bunch of minor issues corrected, including track width increases, silk text-to-component collision fixes, etc. 
 
 I _think_ this one is finally production ready.
+
+===PCB Layout Overview r56===
+
+====A 3D View r56====
+
+[http://kicad-freakduino.googlecode.com/svn/wiki/Milestones.attach/pcb-3d-r56.png]
+
+====CAD View r56====
+
+[http://kicad-freakduino.googlecode.com/svn/wiki/Milestones.attach/pcb-layout-r56.png]
+
 
 ==First completed PCB r42==
 
@@ -16,13 +27,13 @@ Some components and their related layout design work differ from the authentic F
 
 Oh and, some minor layout errors were found with regard to positioning of some 0u1 decoupling capacitors (C18, C20, C21 from memory) being not physically near the chips they were intended to be -- from my interpretation of the schematic, anyway. These were "corrected" in this KiCAD rendition.
 
-===PCB Layout Overview===
+===PCB Layout Overview r42===
 
-====A 3D View====
+====A 3D View r42====
 
 [http://kicad-freakduino.googlecode.com/svn/wiki/Milestones.attach/pcb-3d-r45.png]
 
-====CAD View====
+====CAD View r42====
 
 [http://kicad-freakduino.googlecode.com/svn/wiki/Milestones.attach/pcb-layout-r45.png]
 
