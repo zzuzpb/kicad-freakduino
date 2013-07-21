@@ -2,11 +2,12 @@
 
 = Project Milestones =
 
-==Completed 'Final' Tidying Changes r56==
+==Completed 'Final' (NOT) Tidying Changes r56==
 
 2013-07-21: A bunch of minor issues corrected, including track width increases, silk text-to-component collision fixes, etc. 
 
 *Oops! RF ground plane messed up!* 
+
 Somewhere along the line, I have managed to mess up the RF ground plane and not noticed. There's essentially just one bottom-side ground plane now, so RF and digital on one plane. Oh wow -- and it's obvious even from the 3D rendering below, that the top-side digital ground plane is spilling well into the RF ground plane area, where there is supposed to be a keep-out zone. Grr.
 
 This will need fixing, soon as I get the time.
