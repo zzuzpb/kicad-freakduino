@@ -10,7 +10,9 @@
 
 Somewhere along the line, I have managed to mess up the RF ground plane and not noticed. There's essentially just one bottom-side ground plane now, so RF and digital on one plane. Oh wow -- and it's obvious even from the 3D rendering below, that the top-side digital ground plane is spilling well into the RF ground plane area, where there is supposed to be a keep-out zone. Grr.
 
-This will need fixing, soon as I get the time.
+There's also a ground loop being created via two vias, either side of the balun. One of those needs to be removed. Gosh.
+ 
+This will all need fixing, soon as I get the time.
 
 ===PCB Layout Overview r56===
 
