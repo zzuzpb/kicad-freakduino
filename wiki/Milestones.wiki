@@ -6,7 +6,7 @@
 
 2013-07-21: A bunch of minor issues corrected, including track width increases, silk text-to-component collision fixes, etc. 
 
-I _think_ this one is finally production ready.
+Oops. NOT Final -- Alas, somewhere along the line I have managed to mess up the RF ground plane and not noticed, somehow. There's essentially just one bottom-side ground plane now, so RF and digital on one plane. Not good. This will need fixing, soon as I get the time.
 
 ===PCB Layout Overview r56===
 
