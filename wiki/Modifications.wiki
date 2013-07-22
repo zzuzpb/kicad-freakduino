@@ -1,0 +1,20 @@
+#summary Modifications compared to authentic Freakduino
+
+= Modifications (compared to authentic Freakduino) =
+
+==DC-DC Voltage Up Converter==
+
+Originally, I couldn't find the TO-98 (through-hole) packaged Holtek HT7750A, at all. So I researched and found part of similar function, the Texas Instruments TPS61222, in it's tiny SC-70 SMD package.
+
+Later, I found and acquired the Holtek part from a Chinese supplier. But I decided to stick with the SMD part anyway, because I simply prefer SMD to through-hole components, these days.
+
+
+==Digital Level Shifter — GTL2003 instead of FXMA108==
+
+Again, I originally could not find a supplier for the FXMA108 and again, finally found and acquired the part from China. But the GTL2003 is an easer part to handle by hand and I'd already done the routing design by then. So I'm sticking with that, too.
+
+Note that this part's equivalent /ENABLE pin has reverse sense, to the FXMA108. The the circuit around JP2 was modified accordingly.
+
+==FT232RL USB-to-Serial Converter===
+
+The option exists to go open hardware for this part, by changing to the ATmega16U2, with a 16MHz xtal and firmware from the Arduino archives. However, since I want this board to remain a low current, battery operated device, I first need to check the current consumption of the latter, as it may exceed the FT232RL.
