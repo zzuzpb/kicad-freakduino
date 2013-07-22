@@ -37,7 +37,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 6 6
 Title "FREAKDUINO-CHIBI 2.4GHz"
-Date "19 jul 2013"
+Date "22 jul 2013"
 Rev "v2.1a"
 Comp "KiCAD version by Gruvin"
 Comment1 ""
@@ -556,7 +556,7 @@ Text GLabel 10600 3150 2    39   Output ~ 0
 MCU_TX
 Wire Wire Line
 	9750 1600 8650 1600
-Text Label 8650 1600 0    47   ~ 0
+Text Label 8750 1600 0    47   ~ 0
 RESET_N
 Wire Wire Line
 	9750 1700 9650 1700
@@ -757,4 +757,6 @@ F 3 "" H 4400 1450 60  0000 C CNN
 $EndComp
 Wire Wire Line
 	4400 2700 3800 2700
+Text GLabel 8650 1600 0    47   Input ~ 0
+RESET_N
 $EndSCHEMATC
