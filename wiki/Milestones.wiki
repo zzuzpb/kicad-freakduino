@@ -2,9 +2,11 @@
 
 = Project Milestones =
 
-==First Completed PCB r64==
+==First Completed PCB r65 (r64) ==
 
 First completed PCB, using substituted parts as required by availability. See KiCAD Project file `freakduino-alt.pro`, etc.
+
+*Changes r64-65* were just to add thermal relief back to main ground planes, top and bottom layers.
 
 Some components and their related layout design work differ from the authentic Freakduino v2.1a. This was driven in the first instance from lack of availability of certain parts, at the time. However, a source was finally found in China or those parts, so I'll _probably_ re-do the PCB design for `freakduino.pro` (no '-alt') KiCAD Project files, using only the original parts and schematic.
 
