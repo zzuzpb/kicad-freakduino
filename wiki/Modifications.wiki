@@ -17,14 +17,10 @@ Note that this part's equivalent /ENABLE pin has reverse sense, to the FXMA108. 
 
 ==FT232RL USB-to-Serial Converter===
 
-The option exists to go open hardware for this part, by changing to the ATmega16U2, with a 16MHz xtal and firmware from the Arduino archives. However, since I want this board to remain a low current, battery operated device, I first need to check the current consumption of the latter, as it may exceed the FT232RL ...
+The option exists to go open hardware for this part, by changing to the ATmega16U2, with a 16MHz xtal and firmware from the Arduino archives. I think it would be a very tight squeeze to get the AT'16U2 on the board, mostly due to the need for ISP programming pads. But it does look doable, maybe.
 
-ATmega16U2 at 16MHz/5V = typ. 13.5mA.
-FT232R = typ. 15mA.
+(Incidentally, the power consumption of the ATmega16U2 at 16MHz/5V and FT232RL are both about the same. But it matters not anyway, because that circuit is only powered up when a USB cable is connected.)
 
-Not much in it, then. Hmmm. OK. I think it would be a very tight squeeze to get the AT'16U2 on the board, mostly due to the need for ISP programming pads. But it does look doable, maybe.
-
-Either way, adding a jumper to shut the power off on the USB-to-Serial converter would save at least 13mA of needless draw, for a field deployed unit. 
 
 
 ==UNO `R3` Additional SDA/SCL pins (D14/15)==
