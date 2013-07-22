@@ -19,6 +19,11 @@ Note that this part's equivalent /ENABLE pin has reverse sense, to the FXMA108. 
 
 The option exists to go open hardware for this part, by changing to the ATmega16U2, with a 16MHz xtal and firmware from the Arduino archives. However, since I want this board to remain a low current, battery operated device, I first need to check the current consumption of the latter, as it may exceed the FT232RL.
 
+ATmega16U2 at 16MHz/5V = typ. 13.5mA.
+FT232R = typ. 15mA.
+
+Not much in it. Hmmm.
+
 
 ==UNO `R3` Additional SDA/SCL pins (D14/15)==
 
