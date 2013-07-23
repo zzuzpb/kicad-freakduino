@@ -11,7 +11,7 @@ Enough tinkering already! Time to order the first 10 prototype PCBs and get crac
 I've ordered 10x PCBs (minimum quantity) and all the parts to build two boards, with the usual bulk left-over resistors, capacitors purchased for reasons of economy and use in later projects.
 <br>
 <br>
- NOTE:  Enough parts to build just two (2) of these boards has cost more than USD$200, including the PCBs. So don't bother building, unless you want the educational experience, like me. Just buy genuine, completed units from the [http://freaklabsstore.com/ freaklabsstore.com] at just USD$39 ea., fully built and tested.
+ NOTE:  Enough parts to build just two (2) of these boards has cost more than USD$200, including the PCBs. So don't bother building, unless you want the educational experience, like me. Just buy genuine, completed units from the [http://freaklabsstore.com/ freaklabsstore.com] at just USD$36 ea. (2013-07-23) fully built and tested.
 
 ===PCB Layout Overview v1.0 (r101)===
 
