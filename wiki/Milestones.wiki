@@ -13,6 +13,10 @@ I've ordered 10x PCBs (minimum quantity) and all the parts to build two boards, 
 <br>
  NOTE:  Enough parts to build just two (2) of these boards has cost more than USD$200, including the PCBs. So don't bother building, unless you want the educational experience, like me. Just buy genuine, completed units from the [http://freaklabsstore.com/ freaklabsstore.com] at just USD$36 ea. (2013-07-23) fully built and tested.
 
+My goal ultimately is not to build Arduino compatible boards, but small, bare bones boards based on what I've learned here, for use in sensor networks and for wireless remote control. I'd also like to play about with low power Bluetooth™ and Wi-Fi, as experience and understanding increases. But who knows.
+
+This KiCAD design is an effective, battery operated, 8MHz Arduino compatible board, fully open and in open CAD software. One could leave off the RF and level shifter components and still be left with a fully functional Arduino. However, considering you can buy complete Arduino educational kits from China (eBay) for just USD$21 and free shipping, I can't imagine why anyone would want to build one of these KiCAD designs, unless in high volume. So, this project is really just an academic exercise, pretty much any way you look at it.
+
 ===PCB Layout Overview v1.0 (r101)===
 
 ====A 3D View v1.0 (r101)====
