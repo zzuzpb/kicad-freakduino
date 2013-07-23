@@ -1,4 +1,4 @@
-PCBNEW-BOARD Version 2 date Tue 23 Jul 2013 03:50:25 PM NZST
+PCBNEW-BOARD Version 2 date Tue 23 Jul 2013 03:56:11 PM NZST
 
 # Created by Pcbnew(2013-07-07 BZR 4022)-stable
 
@@ -4685,7 +4685,7 @@ Po 70.4 112.2 0.6 0.7 0.13 0
 De 21 1 0 Normal
 $EndTEXTPCB
 $TEXTPCB
-Te "KiCAD Freakduino v2.1a compat (r97)"
+Te "KiCAD Freakduino v2.1a compat (r100)"
 Po 55.9 120.5 0.81 0.8 0.1 900
 De 21 1 0 Normal L C
 $EndTEXTPCB
@@ -4721,7 +4721,7 @@ Po 101.3 79.4 0.8 0.9 0.15 0
 De 21 1 0 Normal
 $EndTEXTPCB
 $TEXTPCB
-Te "kicad-freakduino.googlecode.com (r97)"
+Te "kicad-freakduino.googlecode.com (r100)"
 Po 111.7 101.4 1 1.1 0.25 2700
 De 20 0 0 Normal
 $EndTEXTPCB
