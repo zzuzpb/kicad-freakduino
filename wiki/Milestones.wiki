@@ -1,6 +1,30 @@
 #summary Project Milestones with repository revisions numbers
 
-= Project Milestones =
+=Project Milestones=
+
+<img src="http://kicad-freakduino.googlecode.com/svn/wiki/Milestones.attach/pcb-order.png" align="right">
+
+==PCBs Ordered for KiCAD-Freakduino v1.0 (r101)==
+
+Enough tinkering already! Time to order the first 10 prototype PCBs and get cracking.
+
+
+
+===PCB Layout Overview v1.0 (r101)===
+
+====A 3D View v1.0 (r101)====
+
+[http://kicad-freakduino.googlecode.com/svn/wiki/Milestones.attach/KiCAD-Freakduino-v1.0_r101_production.png]
+
+====CAD View v1.0 (r101)====
+
+[http://kicad-freakduino.googlecode.com/svn/wiki/Milestones.attach/pcb-layout-r101.png]
+
+
+<br>
+<br>
+<br>
+<br>
 
 ==First Completed PCB r69 ==
 
