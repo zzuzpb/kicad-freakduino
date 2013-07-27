@@ -4,28 +4,27 @@
 
 <img src="http://kicad-freakduino.googlecode.com/svn/wiki/Milestones.attach/pcb-order.png" align="right">
 
-==PCBs Ordered for KiCAD-Freakduino v1.0 (r101)==
+==PCBs Ordered for KiCAD-Freakduino v1.0 (r116)==
 
 Enough tinkering already! Time to order the first 10 prototype PCBs and get cracking.
 
 I've ordered 10x PCBs (minimum quantity) and all the parts to build two boards, with the usual bulk left-over resistors, capacitors purchased for reasons of economy and use in later projects.
 <br>
 <br>
- NOTE:  Enough parts to build just two (2) of these boards has cost more than USD$200, including the PCBs. So don't bother building, unless you want the educational experience, like me. Just buy genuine, completed units from the [http://freaklabsstore.com/ freaklabsstore.com] at just USD$36 ea. (2013-07-23) fully built and tested.
+ NOTE:  Enough parts to build just two (2) of these boards has cost more than USD$200, including the PCBs. So don't bother building, unless you really want the educational experience, as I did. Instead, just buy genuine, completed units from the [http://freaklabsstore.com/ freaklabsstore.com] at just USD$36 ea. (2013-07-23) fully built and tested.
 
 My goal ultimately is not to build Arduino compatible boards, but small, bare bones boards based on what I've learned here, for use in sensor networks and for wireless remote control. I'd also like to play about with low power Bluetooth™ and Wi-Fi, as experience and understanding increases. But who knows.
 
-This KiCAD design is an effective, battery operated, 8MHz Arduino compatible board, fully open and in open CAD software. One could leave off the RF and level shifter components and still be left with a fully functional Arduino. However, considering you can buy complete Arduino educational kits from China (eBay) for just USD$21 and free shipping, I can't imagine why anyone would want to build one of these KiCAD designs, unless in high volume. So, this project is really just an academic exercise, pretty much any way you look at it.
 
-===PCB Layout Overview v1.0 (r101)===
+===PCB Layout Overview v1.0 (r116)===
 
-====A 3D View v1.0 (r101)====
+====A 3D View v1.0 (r116)====
 
-[http://kicad-freakduino.googlecode.com/svn/wiki/Milestones.attach/KiCAD-Freakduino-v1.0_r101_production.png]
+[http://kicad-freakduino.googlecode.com/svn/wiki/Milestones.attach/pcb-3d-r116.png]
 
-====CAD View v1.0 (r101)====
+====CAD View v1.0 (r116)====
 
-[http://kicad-freakduino.googlecode.com/svn/wiki/Milestones.attach/pcb-layout-r101.png]
+[http://kicad-freakduino.googlecode.com/svn/wiki/Milestones.attach/pcb-layout-r116.png]
 
 
 <br>
@@ -33,32 +32,10 @@ This KiCAD design is an effective, battery operated, 8MHz Arduino compatible boa
 <br>
 <br>
 
-==First Completed PCB r69 ==
+===Notes for r116 Milestone===
 
-First completed PCB, using substituted parts as required by availability. See KiCAD Project file `freakduino-alt.pro`, etc.
+Some components and their related layout design work differ from the authentic Freakduino v2.1a. This was driven in the first instance from lack of availability of certain parts, at the time. A source was finally located in China and parts ordered. But I decided to stick with the more readily available versions anyway.
 
-(This is at least the sixth time I've thought the design was correctly completed, "for sure". So don't go rushing to build one based on this design, yet! Eventually, I'll have done so and then reported back after testing, whether it actually works or not.)
+So, the final routing solution ended up significantly different to Akiba's original design, because it just seemed easier to route using my own brain, than trying to copy. (The different battery holder mounting hole position(s) and the two substituted chips with supporting parts mandated changes, anyway.) However, I was careful to leave the user interaction devices -- antenna and power connectors, dip switches, jumpers and LEDs -- in very similar to original locations, so that the original documentation may better apply to this design.
 
-Some components and their related layout design work differ from the authentic Freakduino v2.1a. This was driven in the first instance from lack of availability of certain parts, at the time. However, a source was finally found in China or those parts, so I'll _probably_ re-do the PCB design for `freakduino.pro` (no '-alt') KiCAD Project files, using only the original parts and schematic.
-
-Oh and, some minor layout errors were found with regard to positioning of some 0u1 decoupling capacitors (C18, C20, C21 from memory) being not physically near the chips they were intended to be -- from my interpretation of the schematic, anyway. These were "corrected" in this KiCAD rendition.
-
-===PCB Layout Overview r69===
-
-====A 3D View r69====
-
-[http://kicad-freakduino.googlecode.com/svn/wiki/Milestones.attach/pcb-3d-r69.png]
-
-====CAD View r69====
-
-[http://kicad-freakduino.googlecode.com/svn/wiki/Milestones.attach/pcb-layout-r69.png]
-
-===Notes for r69 Milestone===
-
-The final routing solution ended up significantly different to Akiba's original design, because it just seemed easier to route using my own brain, than trying to copy. (The different battery holder mounting hole position(s) and the two substituted chips with supporting parts mandated changes, anyway.) However, I was careful to leave the user interaction devices -- antenna and power connectors, dip switches, jumpers and LEDs -- in very similar to original locations, so that the original documentation may better apply to this design.
-
-Looks like the parts in one-off quantities at end-user retail are going to amount to over NZ$130, including PCB fabrication. (The genuine Freakduino sells for USD$39.)
-
-The FT232RL is especially high priced, at $11.88. I am considering changing that to the ATmega16U2, with open source USB-to-serial firmware, as used on the more modern Arduinos.
-
-In any case, this exercise has been all about gaining experience, so well worth the cost, for me anyway. I am looking forward to having the test build of the KiCAD Freakduino done and dusted, so I can move on to much smaller boards, for use as discrete sensor network nodes. Should be fun!
+Some minor layout errors were found with regard to positioning of some 0u1 decoupling capacitors (C18, C20, C21 from memory) in the authentic Freakduino. Nothing serious, just some swapped positions, basically. In any case, these were "corrected" in this KiCAD rendition.
