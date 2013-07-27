@@ -8,7 +8,7 @@
 
 Enough tinkering already! Time to order the first 10 prototype PCBs and get cracking.
 
-(I actually ordered boards for r101. But later found errors, which have been corrected here, in r116. So those board are now pretty, blue and gold tea coasters! :-P)
+(I actually ordered boards for r101. But later found errors, which have been corrected here, in r116. So the r101 boards are now pretty, blue and gold tea coasters! :-P)
 
 I've ordered 10x PCBs (minimum quantity) and all the parts to build two boards, with the usual bulk left-over resistors, capacitors purchased for reasons of economy and use in later projects.
 <br>
