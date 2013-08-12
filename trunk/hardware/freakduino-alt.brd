@@ -1,4 +1,4 @@
-PCBNEW-BOARD Version 2 date Mon 12 Aug 2013 03:39:13 PM NZST
+PCBNEW-BOARD Version 2 date Mon 12 Aug 2013 08:50:21 PM NZST
 
 # Created by Pcbnew(2013-07-07 BZR 4022)-stable
 
@@ -10,7 +10,7 @@ EnabledLayers 1FFF8001
 Links 211
 NoConn 0
 Di -0.5 -0.506067 128.898029 142.908
-Ndraw 86
+Ndraw 87
 Ntrack 1417
 Nzone 0
 BoardThickness 1.6
@@ -2396,14 +2396,14 @@ Ro 0 0 0
 $EndSHAPE3D
 $EndMODULE pin_array_8x1
 $MODULE pin_array_3x2
-Po 85.09 121.158 0 15 51E929E8 51E6347B F~
+Po 85.09 121.158 0 15 5208A1CB 51E6347B F~
 Li pin_array_3x2
 Cd Double rangee de contacts 2 x 4 pins
 Kw CONN
 Sc 51E6347B
 AR /51E6502D/51E3E41B
 Op 0 0 0
-T0 -5.29 1.342 1.016 1.016 0 0.2032 N V 21 N "H3"
+T0 5.01 1.242 1.016 1.016 0 0.2032 N V 21 N "H3"
 T1 0 3.81 1.016 1.016 0 0.2032 N I 21 N "H3X2"
 DS 3.81 2.54 -3.81 2.54 0.2032 21
 DS -3.81 -2.54 3.81 -2.54 0.2032 21
@@ -4576,6 +4576,11 @@ Of 0 0 0.001
 Ro 0 0 0
 $EndSHAPE3D
 $EndMODULE SM0603_Capa
+$TEXTPCB
+Te "1"
+Po 80.4 123.4 1.1 1.2 0.275 0
+De 21 1 0 Normal
+$EndTEXTPCB
 $TEXTPCB
 Te "v1.0"
 Po 53.9 98.8 1.2 1.3 0.2 900
