@@ -19,7 +19,7 @@ Accordingly, as at r132, the project BOM files and PCB design have been updated 
 
 [http://kicad-freakduino.googlecode.com/svn/wiki/home.attach/kicad-freakduino-r132.png]
 
-So, we now stand at revision r132, waiting for tests of the RF stage, which I cannot actually do, until I receive my long time back-ordered 12pf capacitors, for goodness' sakes. I was about to go ahead and order the same part elsewhere, when I discovered my that hobby fund had completely dried up. So it'll have to wait a few days. {sigh} :-P
+So, we now stand at revision r132, waiting for tests of the RF stage, which I cannot actually do, until I receive my long time back-ordered 12pf capacitors, for goodness' sakes. I was about to go ahead and order the same parts elsewhere, when I discovered that my hobby fund had dried up. Doh! So, it'll have to wait a few days. {sigh} :-P
 <br>
 <br>
 <br>
