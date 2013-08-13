@@ -4,9 +4,11 @@
 
 ==First build -- with errors found==
 
-<img src="http://kicad-freakduino.googlecode.com/svn/wiki/Milestones.attach/first-build-r116.jpg" align="right" hspace="10" vspace="10" style="margin:10px">
+I finally got to build a prototype, version 1.0 (r116). 
 
-I finally got to build a prototype, version 1.0 (r116). Alas, some errors were discovered.
+<img src="http://kicad-freakduino.googlecode.com/svn/wiki/Milestones.attach/first-build-r116.jpg">
+
+Alas, some errors were discovered.
 
  * The slide switch pin numbering was reversed, thus reversing it's function according to labels
  * Not an error on the board, but I had ordered the wrong 3.3V regulators, with the more common GOI pin order, instead of the prescribed IGO version. As you can see int he photo, I rigged it to work, until I get the right parts in.
