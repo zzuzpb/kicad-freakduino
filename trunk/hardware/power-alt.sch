@@ -37,7 +37,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 4 6
 Title "FREAKDUINO-CHIBI 2.4GHz"
-Date "27 jul 2013"
+Date "12 aug 2013"
 Rev "v2.1a"
 Comp "KiCAD version by Gruvin"
 Comment1 ""
@@ -200,12 +200,12 @@ $Comp
 L SW_SLIDE/THRU-3 S1
 U 1 1 51E37314
 P 6750 2400
-F 0 "S1" H 6700 2850 60  0000 C CNN
-F 1 "SW_SLIDE/THRU-3" H 6800 1900 60  0000 C CNN
+F 0 "S1" H 6700 1950 60  0000 C CNN
+F 1 "SW_SLIDE/THRU-3" H 6800 2900 60  0000 C CNN
 F 2 "" H 6750 2400 60  0000 C CNN
 F 3 "" H 6750 2400 60  0000 C CNN
 	1    6750 2400
-	1    0    0    -1  
+	1    0    0    1   
 $EndComp
 $Comp
 L INDUCTOR_SMALL L2
