@@ -13,7 +13,7 @@ Alas, some errors were discovered.
  * The slide switch pin numbering was reversed, thus reversing its function, according to silk labels and original Freakduino.
  * Due to an error in the bill of materials (BOM) spreadsheet, I had ordered the wrong 3.3V regulator, having the more common GOI pin order, instead of the prescribed IGO version.  I rigged what I had to work by standing it up and installing a wire link -- until I get the right parts in.
  * Due to another error in the BOM, I had ordered the wrong size 100uF capacitor, C3. (I had an 8mm dia. but needed a 6.3mm dia.)
- * The buck boost regulator wasn't producing the goods. The problem turned out to be that I used too small an inductor. I guess the core on the tiny 0603 part was being saturated. A larger inductor (salvaged from an old hard drive PCB :-P) got things working well. That little TPS61222 chip can produce 500mA. Amazing.
+ * The buck boost regulator wasn't producing the goods. The problem turned out to be that I used too small an inductor. I guess the core on the tiny 0603 part was being saturated. A larger inductor (salvaged from an old hard drive :-P) got things working well. That little TPS61222 chip can produce 500mA. Amazing.
 
 Accordingly, as at r132, the project BOM files and PCB design have been updated and corrected.
 
