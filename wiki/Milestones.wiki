@@ -35,7 +35,7 @@ Enough tinkering already! Time to order the first 10 prototype PCBs and get crac
 I've ordered 10x PCBs (minimum quantity) and all the parts to build two boards, with the usual bulk left-over resistors, capacitors purchased for reasons of economy and use in later projects.
 <br>
 <br>
- NOTE:  Enough parts to build just two (2) of these boards has cost more than USD$200, including the PCBs. So don't bother building, unless you really want the educational experience, as I did. Instead, just buy genuine, completed units from the [http://freaklabsstore.com/ freaklabsstore.com] at just USD$36 ea. (2013-07-23) fully built and tested.
+ NOTE:  Enough parts to build just two (2) of these boards has cost more than USD$200, including the PCBs. So don't bother building, unless you really want the educational experience, as I did. Instead, I recommend you simply buy genuine units from the [http://freaklabsstore.com/ freaklabsstore.com] at just USD$36 ea. (2013-07-23) fully built and tested.
 
 My goal ultimately is not to build Arduino compatible boards, but small, bare bones boards based on what I've learned here, for use in sensor networks and for wireless remote control. I'd also like to play about with low power Bluetooth™ and Wi-Fi, as experience and understanding increases. But who knows.
 
