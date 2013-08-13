@@ -2,6 +2,18 @@
 
 =Project Milestones=
 
+==First build -- with errors found==
+
+I finally got to build a prototype, version 1.0 (r116). Alas, some errors were discovered.
+
+ * The slide switch pin numbering was reversed, thus reversing it's function according to labels
+ * The buck boost regulator wasn't producing the goods. The problem turned out to be that I used too small an inductor. I guess the core on the tiny 0603 part was being saturated. A larger inductor (salvaged from an old hard drive PCB :-P) got things working well. That little TPS61222 chip can produce 500mA. Amazing.
+
+The PCB has been updated and corrected, to account for the above problems. 
+
+So, we now stand at revision r132, waiting for tests of the RF stage, which I cannot actually do, until I receive my long time back-ordered 12pf capacitors, for goodness' sakes. I was about to go ahead and order the same part elsewhere, when I discovered my that hobby fund had completely dried up. So it'll have to wait a few days. {sigh} :-P
+
+
 <img src="http://kicad-freakduino.googlecode.com/svn/wiki/Milestones.attach/pcb-order.png" align="right">
 
 ==PCBs Ordered for KiCAD-Freakduino v1.0 (r116)==
