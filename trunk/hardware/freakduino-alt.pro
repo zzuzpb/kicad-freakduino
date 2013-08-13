@@ -1,8 +1,6 @@
-update=Tue 13 Aug 2013 10:58:45 AM NZST
+update=Tue 13 Aug 2013 01:24:50 PM NZST
 version=1
-last_client=cvpcb
-[general]
-version=1
+last_client=kicad
 [pcbnew]
 version=1
 LastNetListRead=freakduino-alt.net
@@ -86,3 +84,5 @@ version=1
 NetIExt=net
 [cvpcb/libraries]
 EquName1=devcms
+[general]
+version=1
