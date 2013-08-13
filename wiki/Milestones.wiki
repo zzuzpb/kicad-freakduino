@@ -4,7 +4,7 @@
 
 ==First build -- with errors found==
 
- Random Reminder: _I'm just a home hobbyist, amateur, doing/copying this for fun and learning._
+ Random Reminder: _I'm just an amateur home hobbyist, doing/copying this for fun and learning._
 
 I finally got to (hand) build the first prototype (semi-clone/copy, that is) version 1.0 (r116).  Here it is ...
 
