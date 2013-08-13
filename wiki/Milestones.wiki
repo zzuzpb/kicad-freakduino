@@ -4,7 +4,7 @@
 
 ==First build -- with errors found==
 
-<img src="http://kicad-freakduino.googlecode.com/svn/wiki/Milestones.attach/first-build-r116.jpg" align="right">
+<img src="http://kicad-freakduino.googlecode.com/svn/wiki/Milestones.attach/first-build-r116.jpg" align="right" hspace="10" vspace="10">
 
 I finally got to build a prototype, version 1.0 (r116). Alas, some errors were discovered.
 
@@ -15,10 +15,6 @@ I finally got to build a prototype, version 1.0 (r116). Alas, some errors were d
 The PCB has been updated and corrected, to account for the above problems. 
 
 So, we now stand at revision r132, waiting for tests of the RF stage, which I cannot actually do, until I receive my long time back-ordered 12pf capacitors, for goodness' sakes. I was about to go ahead and order the same part elsewhere, when I discovered my that hobby fund had completely dried up. So it'll have to wait a few days. {sigh} :-P
-<br>
-<br>
-<br>
-<br>
 <br>
 <br>
 <br>
