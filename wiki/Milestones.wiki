@@ -4,7 +4,7 @@
 
 ==First build -- with errors found==
 
-I finally got to (hand) build the first prototype (clone), version 1.0 (r116).  Here it is ...
+I finally got to (hand) build the first prototype (semi-clone/copy, that is), version 1.0 (r116).  Here it is ...
 
 [http://kicad-freakduino.googlecode.com/svn/wiki/Milestones.attach/first-build-r116.png]
 
