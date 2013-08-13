@@ -11,7 +11,7 @@ I finally got to build a prototype, version 1.0 (r116).
 Alas, some errors were discovered.
 
  * The slide switch pin numbering was reversed, thus reversing it's function according to labels
- * Not an error on the board, but I had ordered the wrong 3.3V regulators, with the more common GOI pin order, instead of the prescribed IGO version. As you can see int he photo, I rigged it to work, until I get the right parts in.
+ * Not an error on the board, but I had ordered the wrong 3.3V regulators, with the more common GOI pin order, instead of the prescribed IGO version. As you can see in the photo, I rigged it to work by standing it up and using a wire link, until I get the right parts in.
  * The buck boost regulator wasn't producing the goods. The problem turned out to be that I used too small an inductor. I guess the core on the tiny 0603 part was being saturated. A larger inductor (salvaged from an old hard drive PCB :-P) got things working well. That little TPS61222 chip can produce 500mA. Amazing.
 
 The PCB has been updated and corrected, to account for the above problems. 
