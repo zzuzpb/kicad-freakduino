@@ -37,7 +37,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 6
 Title "FREAKDUINO-CHIBI 2.4GHz v2.1a compat"
-Date "13 aug 2013"
+Date "16 aug 2013"
 Rev "v1.1"
 Comp "KiCAD version by Gruvin"
 Comment1 "MCU"
@@ -431,11 +431,11 @@ Connection ~ 6000 3150
 Wire Wire Line
 	5550 2700 6000 2700
 Connection ~ 6000 2700
-Text GLabel 9400 3150 2    39   BiDi ~ 0
+Text GLabel 9400 3150 2    39   Output ~ 0
 PB5/SCLK
-Text GLabel 9400 3250 2    39   BiDi ~ 0
+Text GLabel 9400 3250 2    39   Input ~ 0
 PB4/MISO
-Text GLabel 9400 3350 2    39   BiDi ~ 0
+Text GLabel 9400 3350 2    39   Output ~ 0
 PB3/MOSI/OC2A
 Text GLabel 9400 3450 2    39   BiDi ~ 0
 PB2/~SS~/OC1B
@@ -449,7 +449,7 @@ Text GLabel 9400 4750 2    39   BiDi ~ 0
 PD0/RXD
 Text GLabel 9400 4850 2    39   BiDi ~ 0
 PD1/TXD
-Text GLabel 9400 4950 2    39   BiDi ~ 0
+Text GLabel 9400 4950 2    39   Input ~ 0
 PD2/INT0
 Text GLabel 9400 5050 2    39   BiDi ~ 0
 PD3/INT1/OC2B

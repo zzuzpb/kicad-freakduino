@@ -1,4 +1,4 @@
-PCBNEW-LibModule-V1  Tue 13 Aug 2013 01:20:59 PM NZST
+PCBNEW-LibModule-V1  Fri 16 Aug 2013 06:19:12 PM NZST
 # encoding utf-8
 Units mm
 $INDEX
@@ -2460,44 +2460,44 @@ Ro 0 0 -90
 $EndSHAPE3D
 $EndMODULE USB-B_mini
 $MODULE crystal_C3E
-Po 0 0 0 15 51E5D823 00000000 ~~
+Po 0 0 0 15 520DC459 00000000 ~~
 Li crystal_C3E
 Cd crystal Epson Toyocom FA-238 and TSX-3225 series
 Sc 0
 AR /51E37E38/51E39274
 Op 0 0 0
-T0 -0.1 -2.3 0.8 0.8 0 0.15 N V 21 N "Y1"
-T1 0.2 2.3 0.8 0.8 0 0.15 N V 21 N "NX3225SA-16MHz-15ppm"
+T0 -0.0662 -2.9504 0.8 0.8 900 0.15 N V 21 N "Y1"
+T1 1 -18.75 0.8 0.8 0 0.15 N I 21 N "NX3225SA-16MHz-15ppm"
 DS -1.6 -1.3 1.6 -1.3 0.15 21
 DS 1.6 -1.3 1.6 1.3 0.15 21
 DS 1.6 1.3 -1.6 1.3 0.15 21
 DS -1.6 1.3 -1.6 -1.3 0.15 21
 $PAD
-Sh "4" R 1.4 1.2 0 0 0
-Dr 0 0 0
-At SMD N 00888000
-Ne 2 "N-0000048"
-Po -1.1 0.8
-$EndPAD
-$PAD
-Sh "3" R 1.4 1.2 0 0 0
-Dr 0 0 0
-At SMD N 00888000
-Ne 1 "N-0000047"
-Po 1.1 0.8
-$EndPAD
-$PAD
 Sh "1" R 1.4 1.2 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 1 "N-0000047"
-Po -1.1 -0.8
+Ne 0 ""
+Po -1.1 0.8
 $EndPAD
 $PAD
 Sh "2" R 1.4 1.2 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 3 "VSS"
+Ne 0 ""
+Po 1.1 0.8
+$EndPAD
+$PAD
+Sh "4" R 1.4 1.2 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -1.1 -0.8
+$EndPAD
+$PAD
+Sh "3" R 1.4 1.2 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
 Po 1.1 -0.8
 $EndPAD
 $SHAPE3D
