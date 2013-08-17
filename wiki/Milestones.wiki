@@ -35,6 +35,8 @@ Range tests not impeding, r168 _should_ be the final v1.x production model.
 
 But (later the same day) ... range tests are proving very poor, with comparative received signals 30+dB down. Doh. Is it the small frequency variance ... or attenuation in the 2.4GHz RF output circuitry -- or both? I better get my board on the same frequency first I guess, ... but I suspect the latter to be the real problem.
 
+Ah. Dang it. Seems my calculations for the track widths and spacing on 2-layer board are way off. DOH. Need to learn where I went wrong. Well, that's what this project was all about -- learning. Still frustrating, though.
+
 [http://kicad-freakduino.googlecode.com/svn/wiki/Milestones.attach/pcb-3d-r168.png]
 
 <br>
