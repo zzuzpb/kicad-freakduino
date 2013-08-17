@@ -19,23 +19,21 @@ Alas, more errors were discovered ...
  * The RF chip crystal pads were mirrored. (Didn't see the word, "bottom" in the datasheet.)
  * The GTL2003 DREF/GREF pins were wired wrong, causing the chip to cook. (This time, I hadn't read the datasheet well enough, at all. _sigh_) I also realised that, since the GTL2003 is open-drain output and is connected to an SPI bus without need for external pull-ups, the ISP programming jumper JP2 is not needed. But I left it in place, just in case.
  
-As at version v1.2 (r168) the project BOM files and PCB design have been updated and corrected, according to the above. Quite a lot of general tidying was also done.
+As at version v1.2 (r178) the project BOM files and PCB design have been updated and corrected, according to the above. Quite a lot of general tidying was also done.
 
 The RF section has now been tested working. But proper range tests have not yet been conducted.
 
 *Frequency*: The original Freakduinos appear to be using an 8pF (16MHz) crystal, with 12pF capacitors. I measured the oscillator frequency at 16.9997MHz -- 500Hz lower than my 12pF crystal and caps. This represents a 31ppm difference (if you can trust my math) which seems like it should be too much. But the two radios do communicate OK. The radio chip also has internal trimmer capacitors, which can be adjusted digitally. Chibi does not appear to provide API access to this feature. I might add it.
 
-As an experiment, I pushed the difference out to 5,000Hz (10x before) and confirmed that radio comms failed, as expected. Interesting. 
+As an experiment, I pushed the difference out to 5,000Hz (10x before) and confirmed that radio comms failed, as expected. Interesting, though. 
 
 It's hard to know exactly what frequency the 16MHz oscillator is really running at, since the test probe loads the circuit. However, I would suspect that the test probe loading reduces the frequency a little. Therefore, it appears to me more likely that Akiba's choice of an 8pF crystal is the way to go. So, I update update the BOM to an 8pF version and order some for myself. (They're not cheap here, at over $7 each!) 
 
 That said, my 8-digit counter claims to be good to 2.7GHz. So I should really use the RF chip's feature to turn on a test carrier and measure the final output. Perhaps tomorrow.
 
-Range tests not impeding, r168 _should_ be the final v1.x production model.
+*Range tests not impeding, r178 _should_ be the final v1.x production model.*
 
-But (later the same day) ... range tests are proving very poor, with comparative received signals 30+dB down. Doh. Is it the small frequency variance ... or attenuation in the 2.4GHz RF output circuitry -- or both? I better get my board on the same frequency first I guess, ... but I suspect the latter to be the real problem.
-
-Hmm. Disconnecting the antenna make no difference to transmit level. That implies major attenuation in the transmission line. :-/ Ah. Dang it. Seems my calculations for the track widths and spacing on 2-layer board are way off. DOH. (Means the BALUN is the wrong type too, no doubt.) Need to learn where I went wrong. Well, that's what this project was all about -- learning. Still frustrating, though.
+Later the same day -- after some excitement with non-connecting antennas -- range checks and signal reports all check out good. Excellent.
 
 [http://kicad-freakduino.googlecode.com/svn/wiki/Milestones.attach/pcb-3d-r168.png]
 
