@@ -27,7 +27,9 @@ The RF section has now been tested working. But proper range tests have not yet 
 
 As an experiment, I pushed the difference out to 5,000Hz (10x before) and confirmed that radio comms failed, as expected. Interesting. 
 
-It's hard to know exactly what frequency the 16MHz oscillator is really running at, since the test probe loads the circuit. However, I would suspect that the test probe loading reduces the frequency a little. Therefore, it appears to me more likely that Akiba's choice of an 8pF crystal is the way to go. So, I will update the BOM to an 8pF version and order some for myself. (They're not cheap here, at over $7 each!)
+It's hard to know exactly what frequency the 16MHz oscillator is really running at, since the test probe loads the circuit. However, I would suspect that the test probe loading reduces the frequency a little. Therefore, it appears to me more likely that Akiba's choice of an 8pF crystal is the way to go. So, I update update the BOM to an 8pF version and order some for myself. (They're not cheap here, at over $7 each!) 
+
+That said, my 8-digit counter claims to be good to 2.7GHz. So I should really use the RF chip's feature to turn on a test carrier and measure the final output. Perhaps tomorrow.
 
 Range tests not impeding, r168 _should_ be the final v1.x production model.
 
