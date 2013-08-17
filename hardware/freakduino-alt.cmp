@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = Tue 13 Aug 2013 01:04:43 PM NZST
+Cmp-Mod V01 Created by PcbNew date = Sat 17 Aug 2013 03:38:54 PM NZST
 
 BeginCmp
 TimeStamp = /51E37E38/51E3A9AC;
@@ -22,10 +22,10 @@ IdModule  = BATT_HOLDER_2AA;
 EndCmp
 
 BeginCmp
-TimeStamp = /51E37E38/51E793F4;
+TimeStamp = /51E37E38/520EF4AD;
 Reference = BLN1;
-ValeurCmp = 2450BL15B100E;
-IdModule  = BALUN_SMD_0805;
+ValeurCmp = 2450BL14B100;
+IdModule  = BALUN_SMD_0603;
 EndCmp
 
 BeginCmp
@@ -67,14 +67,14 @@ BeginCmp
 TimeStamp = /51E37E38/51E39EFA;
 Reference = C6;
 ValeurCmp = 5p6;
-IdModule  = SM0402_c;
+IdModule  = SM0603_Capa;
 EndCmp
 
 BeginCmp
 TimeStamp = /51E37E38/51E39ED6;
 Reference = C7;
 ValeurCmp = 5p6;
-IdModule  = SM0402_c;
+IdModule  = SM0603_Capa;
 EndCmp
 
 BeginCmp
@@ -346,14 +346,14 @@ EndCmp
 BeginCmp
 TimeStamp = /51E6502D/51E3E16B;
 Reference = R1;
-ValeurCmp = 220;
+ValeurCmp = 1K;
 IdModule  = SM0603;
 EndCmp
 
 BeginCmp
 TimeStamp = /51E6502D/51E3E171;
 Reference = R2;
-ValeurCmp = 220;
+ValeurCmp = 1K;
 IdModule  = SM0603;
 EndCmp
 
@@ -388,14 +388,14 @@ EndCmp
 BeginCmp
 TimeStamp = /51E3C427/51E3CE2B;
 Reference = R7;
-ValeurCmp = 220;
+ValeurCmp = 1K;
 IdModule  = SM0603;
 EndCmp
 
 BeginCmp
 TimeStamp = /51E3C427/51E3CE31;
 Reference = R8;
-ValeurCmp = 220;
+ValeurCmp = 1K;
 IdModule  = SM0603;
 EndCmp
 
@@ -409,7 +409,7 @@ EndCmp
 BeginCmp
 TimeStamp = /51E6502D/51E3DBD0;
 Reference = R10;
-ValeurCmp = 10K;
+ValeurCmp = 180K;
 IdModule  = SM0603;
 EndCmp
 
@@ -423,7 +423,7 @@ EndCmp
 BeginCmp
 TimeStamp = /51E6502D/51E3E73C;
 Reference = R12;
-ValeurCmp = 220;
+ValeurCmp = 1K;
 IdModule  = SM0603;
 EndCmp
 
