@@ -2,6 +2,10 @@
 
 =Project Milestones=
 
+==All Systems Go==
+
+2013-08-17: The first build board is now fully debugged and ready to order (hopefully) the final production test boards. I've learned a whole bunch of little, practical details from this project. Very happy with the results.
+
 ==First build -- with errors found==
 
  Random Reminder: _I'm just an amateur home hobbyist, doing/copying this for fun and learning._
