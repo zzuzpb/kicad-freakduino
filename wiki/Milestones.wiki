@@ -2,9 +2,32 @@
 
 =Project Milestones=
 
+Latest current physical testing board (r116) -- patched to work around errors, etc ...
+
+[http://kicad-freakduino.googlecode.com/svn/wiki/Milestones.attach/first-build-r116.png]
+
 ==All Systems Go==
 
-2013-08-17: The first build board is now fully debugged and ready to order (hopefully) the final production test boards. I've learned a whole bunch of little, practical details from this project. Very happy with the results.
+2013-08-17 (r178): Finally, the first-build board is fully debugged and working 100% OK. 
+
+I've learned a whole bunch of little, practical details from this project. Quite happy with the results.
+
+Later: (r181) I've done a dozen or so more improvements around the board, mostly to the ground planes. Gosh. I don't think I've ever spent so long, futzing around with a PCB design. With this one, I seem to keep finding things that can use improvement. I guess I'm nervous because I already messed up twice and it cost me. I'm pretty happy with how things stand at r181, though. So, I'll probably order the FINAL (dag-gone-it! :-P) batch of prototype proofing boards, shortly.
+
+*Revision r181 - v1.2 FINAL!* (?)
+
+3D View
+
+[http://kicad-freakduino.googlecode.com/svn/wiki/Milestones.attach/pcb-3d-r181.png]
+
+PCB Layout
+
+[http://kicad-freakduino.googlecode.com/svn/wiki/Milestones.attach/pcb-layout-r181.png]
+
+<br>
+<br>
+<br>
+<br>
 
 ==First build -- with errors found==
 
@@ -35,11 +58,9 @@ It's hard to know exactly what frequency the 16MHz oscillator is really running 
 
 That said, my 8-digit counter claims to be good to 2.7GHz. So I should really use the RF chip's feature to turn on a test carrier and measure the final output. Perhaps tomorrow.
 
-*Range tests not impeding, r178 _should_ be the final v1.x production model.*
+*Range tests not impeding, r178 _might_ be the final v1.x production-proof.*
 
-Later the same day -- after some excitement with non-connecting antennas -- range checks and signal reports all check out good. Excellent.
-
-[http://kicad-freakduino.googlecode.com/svn/wiki/Milestones.attach/pcb-3d-r168.png]
+Later the same day -- after some excitement initially with non-connecting antennas -- range checks and signal RSSI reports are all good. Excellent. Whew!
 
 <br>
 <br>
