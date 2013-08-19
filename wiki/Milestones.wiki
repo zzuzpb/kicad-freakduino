@@ -44,7 +44,7 @@ Alas, more errors were discovered ...
  * Due to another error in the BOM, I had ordered the wrong size 100uF capacitor, C3. (I had an 8mm dia. but needed a 6.3mm dia.)
  * The buck boost regulator wasn't producing the goods. The problem turned out to be that I used too small an inductor. I guess the core on the tiny 0603 part was saturating. A larger inductor (salvaged from an old hard drive and adhered to the board with shoe repair glue :-P) got things working well. Later, some NR4018 inductors were purchased and tested all good.  (That tiny TPS61222 chip can supply 500mA! Amazing.)
  * The RF chip crystal pads were mirrored. (Didn't see the word, "bottom" in the datasheet.)
- * The GTL2003 DREF/GREF pins were wired wrong, causing the chip to cook. (This time, I hadn't read the datasheet well enough, at all. _sigh_) I also realised that, since the GTL2003 is open-drain output and is connected to an SPI bus without need for external pull-ups, the ISP programming jumper JP2 is not needed. But I left it in place, just in case.
+ * The GTL2003 DREF/GREF pins were wired wrong, causing the chip to cook. (This time, I hadn't read the datasheet well enough, at all. _sigh_) I also realised that, since the GTL2003 is open-drain output and is connected to an SPI bus without need for external pull-ups, the ISP programming jumper JP2 is not strictly needed. But I left it in place, just in case.
  
 As at version v1.2 (r178) the project BOM files and PCB design have been updated and corrected, according to the above. Quite a lot of general tidying was also done.
 
