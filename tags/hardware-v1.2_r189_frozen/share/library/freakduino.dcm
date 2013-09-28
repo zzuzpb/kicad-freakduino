@@ -1,0 +1,33 @@
+EESchema-DOCLIB  Version 2.0  Date: Sat 17 Aug 2013 03:41:28 PM NZST
+#
+$CMP ATMEGA328-QFP32
+D ATMEGA168A, TQFP32, 16k Flash, 1kB SRAM, 512B EEPROM
+K AVR 8bit Microcontroller MegaAVR
+F http://www.atmel.com/dyn/resources/prod_documents/doc8271.pdf
+$ENDCMP
+#
+$CMP JP6/THRU
+D ymbole general de connecteur
+K CONN
+$ENDCMP
+#
+$CMP JP8/THRU
+D Symbole general de connecteur
+K CONN
+$ENDCMP
+#
+$CMP POWERJACK/THRU-3
+D DC Barrel Jack
+$ENDCMP
+#
+$CMP TPS61222
+D Low input voltage step-up converter SC-70 package
+$ENDCMP
+#
+$CMP UA78M05CDCYG3
+D Linear Regulator +5V
+K POWER REGUL
+F regulator\lm78xx.pdf
+$ENDCMP
+#
+#End Doc Library
