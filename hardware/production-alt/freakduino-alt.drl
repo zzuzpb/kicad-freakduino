@@ -1,5 +1,5 @@
 M48
-;DRILL file {Pcbnew (2013-07-07 BZR 4022)-stable} date Sun 18 Aug 2013 01:05:10 PM NZST
+;DRILL file {Pcbnew (2013-07-07 BZR 4022)-stable} date Sun 29 Sep 2013 11:58:19 AM NZDT
 ;FORMAT={-:-/ absolute / metric / decimal}
 FMAT,2
 METRIC,TZ
@@ -102,6 +102,7 @@ X56.7Y-77.1
 X57.14Y-86.93
 X57.3Y-91.2
 X58.3Y-71.6
+X58.3Y-73.8
 X58.3Y-75.9
 X58.3Y-90.3
 X58.7Y-84.2
