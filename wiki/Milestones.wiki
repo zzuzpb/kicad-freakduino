@@ -1,10 +1,19 @@
 #summary Project Milestones with repository revisions numbers
 
 =Project Milestones=
+Most recent at the top
 
-Latest (current) physical test board (r116) -- patched to work around errors ...
+==Final Prototype Built and Working==
 
-[http://kicad-freakduino.googlecode.com/svn/wiki/Milestones.attach/first-build-r116.png]
+2013-11-07:  Version 1.2 (r189) is finally built and fully operational, with no further bugs having been found. Yay \o/
+
+See the project home page for a photo image of the board.
+
+<br>
+<br>
+<br>
+<br>
+
 
 ==All Systems Go==
 
@@ -14,7 +23,7 @@ I've learned a whole bunch of little, practical details from this project. Quite
 
 Later: (r181) I've done a dozen or so more improvements around the board, mostly to the ground planes. Gosh. I don't think I've ever spent so long, futzing around with a PCB design. With this one, I seem to keep finding things that can use improvement. I guess I'm nervous because I already messed up twice and it cost me. I'm pretty happy with how things stand at r181, though. So, I'll probably order the FINAL (dag-gone-it! :-P) batch of prototype proofing boards, shortly.
 
-*Revision r181 - v1.2 FINAL!* (?)
+*Revision r181 - v1.2
 
 3D View
 
@@ -29,13 +38,18 @@ PCB Layout
 <br>
 <br>
 
-==First build -- with errors found==
+
+== First Physical Build ==
+
+2013-08-13: First physical test board (r116) -- patched to work around errors ...
+
+[http://kicad-freakduino.googlecode.com/svn/wiki/Milestones.attach/first-build-r116.png]
+
+===Several Errors Found ===
 
  Random Reminder: _I'm just an amateur home hobbyist, doing/copying this for fun and learning._
 
 I finally got to (hand) build the first prototype (semi-clone/copy, that is) version 1.0 (r116).  Here it is ...
-
-[http://kicad-freakduino.googlecode.com/svn/wiki/Milestones.attach/first-build-r116.png]
 
 Alas, more errors were discovered ...
 
