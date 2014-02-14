@@ -1,0 +1,157 @@
+Cmp-Mod V01 Created by CvPcb (2013-07-24 BZR 4024)-stable date = Sat 15 Feb 2014 10:28:07 AM NZDT
+
+BeginCmp
+TimeStamp = /51E3A9AC;
+Reference = ANT1;
+ValeurCmp = SMA;
+IdModule  = SMA-GRUVIN;
+EndCmp
+
+BeginCmp
+TimeStamp = /51E793F4;
+Reference = BLN1;
+ValeurCmp = 2450BL15B100E;
+IdModule  = BALUN_SMD_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /51E3A3F7;
+Reference = C2;
+ValeurCmp = DNI;
+IdModule  = SM0603_Capa;
+EndCmp
+
+BeginCmp
+TimeStamp = /51E3A3F1;
+Reference = C4;
+ValeurCmp = 0p4;
+IdModule  = SM0603_Capa;
+EndCmp
+
+BeginCmp
+TimeStamp = /51E39EFA;
+Reference = C6;
+ValeurCmp = 5p6;
+IdModule  = SM0402_c;
+EndCmp
+
+BeginCmp
+TimeStamp = /51E39ED6;
+Reference = C7;
+ValeurCmp = 5p6;
+IdModule  = SM0402_c;
+EndCmp
+
+BeginCmp
+TimeStamp = /51E38595;
+Reference = C8;
+ValeurCmp = 0u1;
+IdModule  = SM0603_Capa;
+EndCmp
+
+BeginCmp
+TimeStamp = /51E39C21;
+Reference = C10;
+ValeurCmp = 0u1;
+IdModule  = SM0603_Capa;
+EndCmp
+
+BeginCmp
+TimeStamp = /51E3840E;
+Reference = C11;
+ValeurCmp = 0u1;
+IdModule  = SM0603_Capa;
+EndCmp
+
+BeginCmp
+TimeStamp = /51E3844B;
+Reference = C12;
+ValeurCmp = 0u1;
+IdModule  = SM0603_Capa;
+EndCmp
+
+BeginCmp
+TimeStamp = /51E3AD55;
+Reference = C16;
+ValeurCmp = 0u1;
+IdModule  = SM0603_Capa;
+EndCmp
+
+BeginCmp
+TimeStamp = /51E39281;
+Reference = C17;
+ValeurCmp = 12p;
+IdModule  = SM0603_Capa;
+EndCmp
+
+BeginCmp
+TimeStamp = /51E39287;
+Reference = C19;
+ValeurCmp = 12p;
+IdModule  = SM0603_Capa;
+EndCmp
+
+BeginCmp
+TimeStamp = /51E3884B;
+Reference = FB1;
+ValeurCmp = FB/0805;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /51E3A3E1;
+Reference = L1;
+ValeurCmp = 3.3nH;
+IdModule  = SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /52FE908F;
+Reference = P1;
+ValeurCmp = CONN_2;
+IdModule  = SIL-2;
+EndCmp
+
+BeginCmp
+TimeStamp = /52FE909C;
+Reference = P2;
+ValeurCmp = CONN_2;
+IdModule  = SIL-2;
+EndCmp
+
+BeginCmp
+TimeStamp = /52FE90A4;
+Reference = P3;
+ValeurCmp = CONN_4;
+IdModule  = SIL-4;
+EndCmp
+
+BeginCmp
+TimeStamp = /51E398E9;
+Reference = R3;
+ValeurCmp = DNI;
+IdModule  = SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /51E398DC;
+Reference = R9;
+ValeurCmp = DNI;
+IdModule  = SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /51E38832;
+Reference = U3;
+ValeurCmp = AT86RF231;
+IdModule  = QFN32_2x2-SINK;
+EndCmp
+
+BeginCmp
+TimeStamp = /51E39274;
+Reference = Y1;
+ValeurCmp = NX3225SA-16MHz-15ppm;
+IdModule  = crystal_C3E;
+EndCmp
+
+EndListe
