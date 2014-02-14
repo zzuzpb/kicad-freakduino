@@ -1,12 +1,13 @@
-PCBNEW-BOARD Version 2 date Wed 30 Oct 2013 07:53:23 PM NZDT
+PCBNEW-BOARD Version 2 date Wed 12 Feb 2014 05:33:14 PM NZDT
 
-# Created by Pcbnew(2013-07-07 BZR 4022)-stable
+# Created by Pcbnew(2013-07-24 BZR 4024)-stable
 
 $GENERAL
 encoding utf-8
 Units mm
 LayerCount 2
 EnabledLayers 1FFF8001
+VisibleLayers 1FFF0001
 Links 211
 NoConn 0
 Di -0.5 -0.506067 134.119066 142.908
@@ -21,7 +22,7 @@ $EndGENERAL
 $SHEETDESCR
 Sheet A3 16535 11693
 Title "KiCAD Freakduino"
-Date "30 oct 2013"
+Date "12 feb 2014"
 Rev "v1.2"
 Comp "Gruvin & Co"
 Comment1 ""
@@ -4563,7 +4564,7 @@ $EndTEXTPCB
 $TEXTPCB
 Te "ATmega328"
 nl "8MHz"
-Po 81.4 106.5 1.1 1.2 0.2 0
+Po 80.772 106.426 1.1 1.2 0.2 0
 De 21 1 0 Normal
 $EndTEXTPCB
 $TEXTPCB
