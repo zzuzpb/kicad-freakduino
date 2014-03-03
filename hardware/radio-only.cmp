@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2013-07-24 BZR 4024)-stable date = Sat 15 Feb 2014 10:28:07 AM NZDT
+Cmp-Mod V01 Created by PcbNew date = Mon 03 Mar 2014 03:10:48 PM NZDT
 
 BeginCmp
 TimeStamp = /51E3A9AC;
@@ -45,7 +45,7 @@ EndCmp
 BeginCmp
 TimeStamp = /51E38595;
 Reference = C8;
-ValeurCmp = 0u1;
+ValeurCmp = 0u01;
 IdModule  = SM0603_Capa;
 EndCmp
 
@@ -66,7 +66,7 @@ EndCmp
 BeginCmp
 TimeStamp = /51E3844B;
 Reference = C12;
-ValeurCmp = 0u1;
+ValeurCmp = 0u01;
 IdModule  = SM0603_Capa;
 EndCmp
 
@@ -115,8 +115,8 @@ EndCmp
 BeginCmp
 TimeStamp = /52FE909C;
 Reference = P2;
-ValeurCmp = CONN_2;
-IdModule  = SIL-2;
+ValeurCmp = CONN_3;
+IdModule  = SIL-3;
 EndCmp
 
 BeginCmp
