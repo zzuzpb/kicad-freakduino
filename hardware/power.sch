@@ -37,7 +37,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 5 6
 Title "FREAKDUINO-CHIBI 2.4GHz"
-Date "18 jul 2013"
+Date "3 mar 2014"
 Rev "v2.1a"
 Comp "KiCAD version by Gruvin"
 Comment1 ""
