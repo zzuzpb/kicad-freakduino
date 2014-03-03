@@ -1,8 +1,8 @@
 (export (version D)
   (design
     (source /home/bryan/vista/projects/kicad-freakduino/trunk/hardware/freakduino-alt.sch)
-    (date "Fri 16 Aug 2013 06:48:24 PM NZST")
-    (tool "eeschema (2013-07-07 BZR 4022)-stable"))
+    (date "Mon 03 Mar 2014 02:28:04 PM NZDT")
+    (tool "eeschema (2013-07-24 BZR 4024)-stable"))
   (components
     (comp (ref R13)
       (value 10K)
@@ -71,12 +71,12 @@
       (sheetpath (names /RADIO/) (tstamps /51E37E38/))
       (tstamp 51E3840E))
     (comp (ref C12)
-      (value 0u1)
+      (value 0u01)
       (libsource (lib device) (part C))
       (sheetpath (names /RADIO/) (tstamps /51E37E38/))
       (tstamp 51E3844B))
     (comp (ref C8)
-      (value 0u1)
+      (value 0u01)
       (libsource (lib device) (part C))
       (sheetpath (names /RADIO/) (tstamps /51E37E38/))
       (tstamp 51E38595))
@@ -422,6 +422,15 @@
         (pin (num 30) (name PD0/RXD) (type BiDi))
         (pin (num 31) (name PD1/TXD) (type BiDi))
         (pin (num 32) (name PD2/INT0) (type BiDi))))
+    (libpart (lib freakduino) (part 1X2)
+      (fields
+        (field (name Reference) JP)
+        (field (name Value) 1X2)
+        (field (name Footprint) ~)
+        (field (name Datasheet) ~))
+      (pins
+        (pin (num 1) (name 1) (type passive))
+        (pin (num 2) (name 2) (type passive))))
     (libpart (lib freakduino) (part AT86RF231)
       (fields
         (field (name Reference) U)
@@ -462,15 +471,6 @@
         (pin (num 31) (name AVSS) (type power_in))
         (pin (num 32) (name AVSS) (type power_in))
         (pin (num 33) (name PAD) (type passive))))
-    (libpart (lib freakduino) (part 1X2)
-      (fields
-        (field (name Reference) JP)
-        (field (name Value) 1X2)
-        (field (name Footprint) ~)
-        (field (name Datasheet) ~))
-      (pins
-        (pin (num 1) (name 1) (type passive))
-        (pin (num 2) (name 2) (type passive))))
     (libpart (lib freakduino) (part BALUN_GRUVIN)
       (fields
         (field (name Reference) BLN)
@@ -807,9 +807,9 @@
     (library (logical freakduino)
       (uri share/library/freakduino.lib))
     (library (logical device)
-      (uri /usr/local/kicad/share/library/device.lib))
+      (uri /usr/local/share/kicad/library/device.lib))
     (library (logical conn)
-      (uri /usr/local/kicad/share/library/conn.lib)))
+      (uri /usr/local/share/kicad/library/conn.lib)))
   (nets
     (net (code 1) (name PD2/INT0)
       (node (ref U6) (pin 32))
