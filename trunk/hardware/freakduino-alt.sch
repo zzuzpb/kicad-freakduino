@@ -38,7 +38,7 @@ encoding utf-8
 Sheet 1 6
 Title "FREAKDUINO-CHIBI 2.4GHz v2.1a compat"
 Date "3 mar 2014"
-Rev "v1.2"
+Rev "v1.3"
 Comp "KiCAD version by Gruvin"
 Comment1 "MCU"
 Comment2 ""
